@@ -1,0 +1,5415 @@
+{
+  "rows": [
+    {
+      "date": "2026-01-16",
+      "version": "1.9.0.4",
+      "update_type": "平衡调整",
+      "unit": "先知",
+      "tech": "导弹拦截",
+      "content": "拦截效率增加40%",
+      "filename": "2026.1.16_update_1.9.0.4(2).txt"
+    },
+    {
+      "date": "2026-01-16",
+      "version": "1.9.0.4",
+      "update_type": "平衡调整",
+      "unit": "尖牙",
+      "tech": "榴弹发射器",
+      "content": "射程修正 0 → +5",
+      "filename": "2026.1.16_update_1.9.0.4(2).txt"
+    },
+    {
+      "date": "2026-01-16",
+      "version": "1.9.0.4",
+      "update_type": "平衡调整",
+      "unit": "弧光",
+      "tech": "震荡波",
+      "content": "射程修正 -20 → -5",
+      "filename": "2026.1.16_update_1.9.0.4(2).txt"
+    },
+    {
+      "date": "2026-01-16",
+      "version": "1.9.0.4",
+      "update_type": "平衡调整",
+      "unit": "战争工厂",
+      "tech": "光子涂层",
+      "content": "持续时间 25s → 30s",
+      "filename": "2026.1.16_update_1.9.0.4(2).txt"
+    },
+    {
+      "date": "2026-01-16",
+      "version": "1.9.0.4",
+      "update_type": "平衡调整",
+      "unit": "泰山",
+      "tech": "光子循环",
+      "content": "持续时间 15s → 20s",
+      "filename": "2026.1.16_update_1.9.0.4(2).txt"
+    },
+    {
+      "date": "2026-01-16",
+      "version": "1.9.0.4",
+      "update_type": "平衡调整",
+      "unit": "泰山",
+      "tech": "烟雾弹",
+      "content": "价格 350 → 250",
+      "filename": "2026.1.16_update_1.9.0.4(2).txt"
+    },
+    {
+      "date": "2026-01-16",
+      "version": "1.9.0.4",
+      "update_type": "平衡调整",
+      "unit": "深渊",
+      "tech": "光子涂层",
+      "content": "持续时间 25s → 30s",
+      "filename": "2026.1.16_update_1.9.0.4(2).txt"
+    },
+    {
+      "date": "2026-01-16",
+      "version": "1.9.0.4",
+      "update_type": "平衡调整",
+      "unit": "火獾",
+      "tech": "NA",
+      "content": "攻击力 24 → 25（+5%）",
+      "filename": "2026.1.16_update_1.9.0.4(2).txt"
+    },
+    {
+      "date": "2026-01-16",
+      "version": "1.9.0.4",
+      "update_type": "平衡调整",
+      "unit": "火神",
+      "tech": "黏油弹",
+      "content": "价格 250 → 200",
+      "filename": "2026.1.16_update_1.9.0.4(2).txt"
+    },
+    {
+      "date": "2026-01-16",
+      "version": "1.9.0.4",
+      "update_type": "平衡调整",
+      "unit": "犀牛",
+      "tech": "光子涂层",
+      "content": "持续时间 25s → 30s",
+      "filename": "2026.1.16_update_1.9.0.4(2).txt"
+    },
+    {
+      "date": "2026-01-16",
+      "version": "1.9.0.4",
+      "update_type": "平衡调整",
+      "unit": "狼蛛",
+      "tech": "战地维修",
+      "content": "价格 200 → 150",
+      "filename": "2026.1.16_update_1.9.0.4(2).txt"
+    },
+    {
+      "date": "2026-01-16",
+      "version": "1.9.0.4",
+      "update_type": "平衡调整",
+      "unit": "装备",
+      "tech": "光子涂层",
+      "content": "持续时间 25s → 30s",
+      "filename": "2026.1.16_update_1.9.0.4(2).txt"
+    },
+    {
+      "date": "2026-01-16",
+      "version": "1.9.0.4",
+      "update_type": "平衡调整",
+      "unit": "装备",
+      "tech": "坦克生产线",
+      "content": "现在最多可生产7次",
+      "filename": "2026.1.16_update_1.9.0.4(2).txt"
+    },
+    {
+      "date": "2026-01-16",
+      "version": "1.9.0.4",
+      "update_type": "平衡调整",
+      "unit": "装备",
+      "tech": "野马生产线",
+      "content": "现在最多可生产8次",
+      "filename": "2026.1.16_update_1.9.0.4(2).txt"
+    },
+    {
+      "date": "2026-01-16",
+      "version": "1.9.0.4",
+      "update_type": "平衡调整",
+      "unit": "装备",
+      "tech": "钢球生产线",
+      "content": "现在最多可生产6次",
+      "filename": "2026.1.16_update_1.9.0.4(2).txt"
+    },
+    {
+      "date": "2026-01-16",
+      "version": "1.9.0.4",
+      "update_type": "平衡调整",
+      "unit": "钢球",
+      "tech": "滚动充能",
+      "content": "每移动9米，射程增加1米 → 每移动7米，射程增加1米，最大增加100米射程",
+      "filename": "2026.1.16_update_1.9.0.4(2).txt"
+    },
+    {
+      "date": "2026-01-16",
+      "version": "1.9.0.4",
+      "update_type": "平衡调整",
+      "unit": "铁锤",
+      "tech": "电磁弹",
+      "content": "价格 400 → 350",
+      "filename": "2026.1.16_update_1.9.0.4(2).txt"
+    },
+    {
+      "date": "2026-01-16",
+      "version": "1.9.0.4",
+      "update_type": "平衡调整",
+      "unit": "铁锤",
+      "tech": "穿甲弹",
+      "content": "攻击力修正 +225% → +250%",
+      "filename": "2026.1.16_update_1.9.0.4(2).txt"
+    },
+    {
+      "date": "2026-01-16",
+      "version": "1.9.0.4",
+      "update_type": "平衡调整",
+      "unit": "霸主",
+      "tech": "战地维修",
+      "content": "价格 200 → 150",
+      "filename": "2026.1.16_update_1.9.0.4(2).txt"
+    },
+    {
+      "date": "2026-02-05",
+      "version": "1.9.1",
+      "update_type": "新科技",
+      "unit": "剑齿虎",
+      "tech": "野战工事",
+      "content": "战斗开始时原地部署堑壕。驻扎期间无法移动，生命值上升 50%，攻击间隔下降 20%，射程上升 20。若射程内连续 7 秒没有敌人，剑齿虎将离开并摧毁堑壕。",
+      "filename": "2026.2.5_update_1.9.1.txt"
+    },
+    {
+      "date": "2026-02-05",
+      "version": "1.9.1",
+      "update_type": "平衡调整",
+      "unit": "尖牙",
+      "tech": "榴弹发射器",
+      "content": "射程 +5 → +15",
+      "filename": "2026.2.5_update_1.9.1.txt"
+    },
+    {
+      "date": "2026-02-05",
+      "version": "1.9.1",
+      "update_type": "平衡调整",
+      "unit": "弧光",
+      "tech": "蓄能攻击",
+      "content": "价格 250 → 200",
+      "filename": "2026.2.5_update_1.9.1.txt"
+    },
+    {
+      "date": "2026-02-05",
+      "version": "1.9.1",
+      "update_type": "平衡调整",
+      "unit": "恶灵",
+      "tech": "地面巡航",
+      "content": "攻击间隔 +0.5s → 0.6s",
+      "filename": "2026.2.5_update_1.9.1.txt"
+    },
+    {
+      "date": "2026-02-05",
+      "version": "1.9.1",
+      "update_type": "平衡调整",
+      "unit": "泰山",
+      "tech": "光子循环",
+      "content": "持续时间 20s → 25s",
+      "filename": "2026.2.5_update_1.9.1.txt"
+    },
+    {
+      "date": "2026-02-05",
+      "version": "1.9.1",
+      "update_type": "平衡调整",
+      "unit": "泰山",
+      "tech": "烟雾弹",
+      "content": "发射间隔 40s → 25s",
+      "filename": "2026.2.5_update_1.9.1.txt"
+    },
+    {
+      "date": "2026-02-05",
+      "version": "1.9.1",
+      "update_type": "平衡调整",
+      "unit": "火獾",
+      "tech": "NA",
+      "content": "攻击力 25 → 27（+8%）",
+      "filename": "2026.2.5_update_1.9.1.txt"
+    },
+    {
+      "date": "2026-02-05",
+      "version": "1.9.1",
+      "update_type": "平衡调整",
+      "unit": "火神",
+      "tech": "NA",
+      "content": "攻击力 74 → 75（+2%）",
+      "filename": "2026.2.5_update_1.9.1.txt"
+    },
+    {
+      "date": "2026-02-05",
+      "version": "1.9.1",
+      "update_type": "平衡调整",
+      "unit": "爬虫",
+      "tech": "松散队列",
+      "content": "价格 400 → 350",
+      "filename": "2026.2.5_update_1.9.1.txt"
+    },
+    {
+      "date": "2026-02-05",
+      "version": "1.9.1",
+      "update_type": "平衡调整",
+      "unit": "爬虫",
+      "tech": "潜地行动",
+      "content": "价格 300 → 350",
+      "filename": "2026.2.5_update_1.9.1.txt"
+    },
+    {
+      "date": "2026-02-05",
+      "version": "1.9.1",
+      "update_type": "平衡调整",
+      "unit": "猎犬",
+      "tech": "NA",
+      "content": "生命值 897 → 879（-2%）",
+      "filename": "2026.2.5_update_1.9.1.txt"
+    },
+    {
+      "date": "2026-02-05",
+      "version": "1.9.1",
+      "update_type": "平衡调整",
+      "unit": "装备",
+      "tech": "强化模块",
+      "content": "攻击力上升 25%，生命值上升 25%，并且升级消耗的补给减少 100",
+      "filename": "2026.2.5_update_1.9.1.txt"
+    },
+    {
+      "date": "2026-02-05",
+      "version": "1.9.1",
+      "update_type": "平衡调整",
+      "unit": "装备",
+      "tech": "统御核心",
+      "content": "现在会在全部游戏模式中出现",
+      "filename": "2026.2.5_update_1.9.1.txt"
+    },
+    {
+      "date": "2026-02-05",
+      "version": "1.9.1",
+      "update_type": "新科技",
+      "unit": "野马",
+      "tech": "斩杀弹",
+      "content": "攻击直接摧毁当前生命值低于 300（每升一级 +100）的目标。攻击力下降 50%。",
+      "filename": "2026.2.5_update_1.9.1.txt"
+    },
+    {
+      "date": "2026-02-05",
+      "version": "1.9.1",
+      "update_type": "平衡调整",
+      "unit": "鬼鳐",
+      "tech": "对地增程",
+      "content": "攻击力下降 40% → 20%，价格 100 → 200",
+      "filename": "2026.2.5_update_1.9.1.txt"
+    },
+    {
+      "date": "2026-02-10",
+      "version": "1.9.1.2",
+      "update_type": "平衡调整",
+      "unit": "猎犬",
+      "tech": "NA",
+      "content": "升级所需经验提升 1.4 → 1.5",
+      "filename": "2026.2.10_update_1.9.1.2.txt"
+    },
+    {
+      "date": "2026-02-10",
+      "version": "1.9.1.2",
+      "update_type": "平衡调整",
+      "unit": "野马",
+      "tech": "斩杀弹",
+      "content": "每级斩杀门槛增加 +100 → +150",
+      "filename": "2026.2.10_update_1.9.1.2.txt"
+    },
+    {
+      "date": "2026-02-27",
+      "version": "1.9.1.3",
+      "update_type": "平衡调整",
+      "unit": "爬虫",
+      "tech": "松散队列",
+      "content": "价格 350 → 250",
+      "filename": "2026.2.27_update_1.9.1.3.txt"
+    },
+    {
+      "date": "2026-02-27",
+      "version": "1.9.1.3",
+      "update_type": "平衡调整",
+      "unit": "爬虫",
+      "tech": "潜地行动",
+      "content": "减免伤害 55% → 50%",
+      "filename": "2026.2.27_update_1.9.1.3.txt"
+    },
+    {
+      "date": "2026-02-27",
+      "version": "1.9.1.3",
+      "update_type": "平衡调整",
+      "unit": "狂蝎",
+      "tech": "双发",
+      "content": "价格 200 → 100",
+      "filename": "2026.2.27_update_1.9.1.3.txt"
+    },
+    {
+      "date": "2026-02-27",
+      "version": "1.9.1.3",
+      "update_type": "平衡调整",
+      "unit": "野马",
+      "tech": "斩杀弹",
+      "content": "每级斩杀门槛增加 +150 → +200",
+      "filename": "2026.2.27_update_1.9.1.3.txt"
+    },
+    {
+      "date": "2026-03-12",
+      "version": "1.10",
+      "update_type": "平衡调整",
+      "unit": "尖牙",
+      "tech": "榴弹发射器",
+      "content": "射程修正 +15 → +10",
+      "filename": "2026.3.12_update_1.10.txt"
+    },
+    {
+      "date": "2026-03-12",
+      "version": "1.10",
+      "update_type": "平衡调整",
+      "unit": "开局单位",
+      "tech": "剑齿虎 & 猎犬",
+      "content": "玩家生命值修正  -200 → -300",
+      "filename": "2026.3.12_update_1.10.txt"
+    },
+    {
+      "date": "2026-03-12",
+      "version": "1.10",
+      "update_type": "平衡调整",
+      "unit": "开局单位",
+      "tech": "火獾 & 魔眼",
+      "content": "玩家生命值修正  0 → +200",
+      "filename": "2026.3.12_update_1.10.txt"
+    },
+    {
+      "date": "2026-03-12",
+      "version": "1.10",
+      "update_type": "平衡调整",
+      "unit": "开局单位",
+      "tech": "狼蛛 & 魔眼",
+      "content": "玩家生命值修正  0 → +200",
+      "filename": "2026.3.12_update_1.10.txt"
+    },
+    {
+      "date": "2026-03-12",
+      "version": "1.10",
+      "update_type": "平衡调整",
+      "unit": "深渊",
+      "tech": "残骸利用",
+      "content": "攻击力修正 +20% → +35%",
+      "filename": "2026.3.12_update_1.10.txt"
+    },
+    {
+      "date": "2026-03-12",
+      "version": "1.10",
+      "update_type": "平衡调整",
+      "unit": "深渊",
+      "tech": "裂解",
+      "content": "价格 400 → 350",
+      "filename": "2026.3.12_update_1.10.txt"
+    },
+    {
+      "date": "2026-03-12",
+      "version": "1.10",
+      "update_type": "平衡调整",
+      "unit": "熔点",
+      "tech": "电磁弹幕",
+      "content": "对护盾伤害 4000 → 6000",
+      "filename": "2026.3.12_update_1.10.txt"
+    },
+    {
+      "date": "2026-03-12",
+      "version": "1.10",
+      "update_type": "平衡调整",
+      "unit": "爬虫",
+      "tech": "潜地行动",
+      "content": "伤害减免 50%  → 45%",
+      "filename": "2026.3.12_update_1.10.txt"
+    },
+    {
+      "date": "2026-03-12",
+      "version": "1.10",
+      "update_type": "平衡调整",
+      "unit": "猎犬",
+      "tech": "枪膛增压",
+      "content": "攻击间隔 +0.6s，每秒攻击力修正 +35% → +60%",
+      "filename": "2026.3.12_update_1.10.txt"
+    },
+    {
+      "date": "2026-03-12",
+      "version": "1.10",
+      "update_type": "新单位",
+      "unit": "磁暴",
+      "tech": "NA",
+      "content": "新增单位：磁暴",
+      "filename": "2026.3.12_update_1.10.txt"
+    },
+    {
+      "date": "2026-03-12",
+      "version": "1.10",
+      "update_type": "新单位科技",
+      "unit": "磁暴",
+      "tech": "储能护盾",
+      "content": "攻击时在内部储能。每攻击 13 次，在当前位置部署一个半径 40 米的能量护盾。护盾初始生命值为 4500，磁暴每提升 1 级，护盾生命值额外增加 4500。",
+      "filename": "2026.3.12_update_1.10.txt"
+    },
+    {
+      "date": "2026-03-12",
+      "version": "1.10",
+      "update_type": "新单位科技",
+      "unit": "磁暴",
+      "tech": "射程强化",
+      "content": "射程增加40。",
+      "filename": "2026.3.12_update_1.10.txt"
+    },
+    {
+      "date": "2026-03-12",
+      "version": "1.10",
+      "update_type": "新单位科技",
+      "unit": "磁暴",
+      "tech": "并网",
+      "content": "与 25 米内的其他磁暴产生链接。每多一个互相链接的单位，攻击力上升 15%。",
+      "filename": "2026.3.12_update_1.10.txt"
+    },
+    {
+      "date": "2026-03-12",
+      "version": "1.10",
+      "update_type": "新单位科技",
+      "unit": "磁暴",
+      "tech": "应急装甲",
+      "content": "生命值首次低于 50% 时，启动应急装甲，抵抗所有伤害且无法被敌人锁定，持续 4 秒。生命值为 0 时无法启动应急装甲。",
+      "filename": "2026.3.12_update_1.10.txt"
+    },
+    {
+      "date": "2026-03-12",
+      "version": "1.10",
+      "update_type": "新单位科技",
+      "unit": "磁暴",
+      "tech": "电磁云",
+      "content": "攻击对目标和目标周围 10 米内的敌方单位形成电磁干扰。",
+      "filename": "2026.3.12_update_1.10.txt"
+    },
+    {
+      "date": "2026-03-12",
+      "version": "1.10",
+      "update_type": "新单位科技",
+      "unit": "磁暴",
+      "tech": "电磁双生",
+      "content": "战斗开始时，在身后生成一个 1 级磁暴幻影。幻影的生命值为 1，且攻击力为普通磁暴的 30%。",
+      "filename": "2026.3.12_update_1.10.txt"
+    },
+    {
+      "date": "2026-03-12",
+      "version": "1.10",
+      "update_type": "新单位科技",
+      "unit": "磁暴",
+      "tech": "移动电站",
+      "content": "射程增加 10，提升 100 米内地面友军单位 20% 的攻击力（效果不可叠加）。",
+      "filename": "2026.3.12_update_1.10.txt"
+    },
+    {
+      "date": "2026-03-12",
+      "version": "1.10",
+      "update_type": "平衡调整",
+      "unit": "野马",
+      "tech": "斩杀弹",
+      "content": "斩杀门槛 300 → 320",
+      "filename": "2026.3.12_update_1.10.txt"
+    },
+    {
+      "date": "2026-03-12",
+      "version": "1.10",
+      "update_type": "平衡调整",
+      "unit": "铁锤",
+      "tech": "穿甲弹",
+      "content": "攻速修正 -40% → -30%",
+      "filename": "2026.3.12_update_1.10.txt"
+    },
+    {
+      "date": "2026-03-12",
+      "version": "1.10",
+      "update_type": "平衡调整",
+      "unit": "鬼鳐",
+      "tech": "隐形",
+      "content": "价格 200 → 100",
+      "filename": "2026.3.12_update_1.10.txt"
+    },
+    {
+      "date": "2026-03-12",
+      "version": "1.10",
+      "update_type": "平衡调整",
+      "unit": "魔眼",
+      "tech": "NA",
+      "content": "攻击力 947 → 995（+5%）",
+      "filename": "2026.3.12_update_1.10.txt"
+    },
+    {
+      "date": "2026-03-12",
+      "version": "1.10",
+      "update_type": "平衡调整",
+      "unit": "魔眼",
+      "tech": "蓄能攻击",
+      "content": "价格 150 → 100",
+      "filename": "2026.3.12_update_1.10.txt"
+    },
+    {
+      "date": "2026-03-19",
+      "version": "1.10.0.1",
+      "update_type": "平衡调整",
+      "unit": "磁暴",
+      "tech": "NA",
+      "content": "攻击力 1200 → 1385（+15%）",
+      "filename": "2026.3.19_update_1.10.0.1.txt"
+    },
+    {
+      "date": "2026-03-19",
+      "version": "1.10.0.1",
+      "update_type": "平衡调整",
+      "unit": "磁暴",
+      "tech": "NA",
+      "content": "攻击间隔 1.3s → 1.5s",
+      "filename": "2026.3.19_update_1.10.0.1.txt"
+    },
+    {
+      "date": "2026-03-19",
+      "version": "1.10.0.1",
+      "update_type": "平衡调整",
+      "unit": "磁暴",
+      "tech": "储能护盾",
+      "content": "每攻击 13 次生成一个护盾 → 每攻击 11 次生成一个护盾；护盾生命值 4500 → 5000",
+      "filename": "2026.3.19_update_1.10.0.1.txt"
+    },
+    {
+      "date": "2026-03-19",
+      "version": "1.10.0.1",
+      "update_type": "平衡调整",
+      "unit": "磁暴",
+      "tech": "并网",
+      "content": "与 25 米内的其他磁暴产生链接。每多一个互相链接的单位，攻击力上升 15% → 与 25 米内的其他磁暴产生链接。每多一个互相链接的单位，攻击力上升 15%，最大上升 195%",
+      "filename": "2026.3.19_update_1.10.0.1.txt"
+    },
+    {
+      "date": "2026-03-19",
+      "version": "1.10.0.1",
+      "update_type": "新科技",
+      "unit": "磁暴",
+      "tech": "战地维修",
+      "content": "新增科技：生命值上升 30%，受伤后每秒自动恢复最大生命值的 4.5%",
+      "filename": "2026.3.19_update_1.10.0.1.txt"
+    },
+    {
+      "date": "2026-03-19",
+      "version": "1.10.0.1",
+      "update_type": "平衡调整",
+      "unit": "磁暴",
+      "tech": "电磁双生",
+      "content": "价格 300 → 400",
+      "filename": "2026.3.19_update_1.10.0.1.txt"
+    },
+    {
+      "date": "2026-03-19",
+      "version": "1.10.0.1",
+      "update_type": "平衡调整",
+      "unit": "磁暴",
+      "tech": "移动电站",
+      "content": "价格 300 → 250",
+      "filename": "2026.3.19_update_1.10.0.1.txt"
+    },
+    {
+      "date": "2026-04-01",
+      "version": "1.10.0.2",
+      "update_type": "单位改型",
+      "unit": "单位改型",
+      "tech": "改进型剑齿虎",
+      "content": "攻击间隔修正 -0.6s → -0.9s",
+      "filename": "2026.4.1_update_1.10.0.2.txt"
+    },
+    {
+      "date": "2026-04-01",
+      "version": "1.10.0.2",
+      "update_type": "平衡调整",
+      "unit": "沙虫",
+      "tech": "机械分裂",
+      "content": "价格 150 → 200",
+      "filename": "2026.4.1_update_1.10.0.2.txt"
+    },
+    {
+      "date": "2026-04-01",
+      "version": "1.10.0.2",
+      "update_type": "平衡调整",
+      "unit": "沙虫",
+      "tech": "沙暴",
+      "content": "持续时间 5s → 7s",
+      "filename": "2026.4.1_update_1.10.0.2.txt"
+    },
+    {
+      "date": "2026-04-01",
+      "version": "1.10.0.2",
+      "update_type": "平衡调整",
+      "unit": "沙虫",
+      "tech": "突袭",
+      "content": "价格 200 → 150",
+      "filename": "2026.4.1_update_1.10.0.2.txt"
+    },
+    {
+      "date": "2026-04-01",
+      "version": "1.10.0.2",
+      "update_type": "平衡调整",
+      "unit": "猎犬",
+      "tech": "枪膛增压",
+      "content": "每秒攻击力加成 60% → 70%",
+      "filename": "2026.4.1_update_1.10.0.2.txt"
+    },
+    {
+      "date": "2026-04-01",
+      "version": "1.10.0.2",
+      "update_type": "平衡调整",
+      "unit": "猎犬",
+      "tech": "燃烧弹",
+      "content": "火焰持续时间 12s → 10s",
+      "filename": "2026.4.1_update_1.10.0.2.txt"
+    },
+    {
+      "date": "2026-04-01",
+      "version": "1.10.0.2",
+      "update_type": "平衡调整",
+      "unit": "磁暴",
+      "tech": "并网",
+      "content": "链接距离 25 → 35",
+      "filename": "2026.4.1_update_1.10.0.2.txt"
+    },
+    {
+      "date": "2026-04-01",
+      "version": "1.10.0.2",
+      "update_type": "平衡调整",
+      "unit": "磁暴",
+      "tech": "应急装甲",
+      "content": "价格 200 → 100",
+      "filename": "2026.4.1_update_1.10.0.2.txt"
+    },
+    {
+      "date": "2026-04-01",
+      "version": "1.10.0.2",
+      "update_type": "平衡调整",
+      "unit": "磁暴",
+      "tech": "战地维修",
+      "content": "价格 200 → 100",
+      "filename": "2026.4.1_update_1.10.0.2.txt"
+    },
+    {
+      "date": "2026-04-01",
+      "version": "1.10.0.2",
+      "update_type": "平衡调整",
+      "unit": "野马",
+      "tech": "斩杀弹",
+      "content": "攻击力修正 -50% → -35%",
+      "filename": "2026.4.1_update_1.10.0.2.txt"
+    },
+    {
+      "date": "2026-04-01",
+      "version": "1.10.0.2",
+      "update_type": "平衡调整",
+      "unit": "铁锤",
+      "tech": "机械狂暴",
+      "content": "价格 300 → 250",
+      "filename": "2026.4.1_update_1.10.0.2.txt"
+    },
+    {
+      "date": "2026-04-01",
+      "version": "1.10.0.2",
+      "update_type": "平衡调整",
+      "unit": "鬼鳐",
+      "tech": "对地锁定",
+      "content": "价格 200 → 150",
+      "filename": "2026.4.1_update_1.10.0.2.txt"
+    },
+    {
+      "date": "2026-04-01",
+      "version": "1.10.0.2",
+      "update_type": "平衡调整",
+      "unit": "鬼鳐",
+      "tech": "高爆弹药",
+      "content": "价格 200 → 150",
+      "filename": "2026.4.1_update_1.10.0.2.txt"
+    },
+    {
+      "date": "2026-04-09",
+      "version": "1.10.0.3",
+      "update_type": "平衡调整",
+      "unit": "先知",
+      "tech": "搜索雷达",
+      "content": "价格 300 → 200",
+      "filename": "2026.4.9_update_1.10.0.3.txt"
+    },
+    {
+      "date": "2026-04-09",
+      "version": "1.10.0.3",
+      "update_type": "平衡调整",
+      "unit": "剑齿虎",
+      "tech": "NA",
+      "content": "攻击力 7858 → 7243（-8%）",
+      "filename": "2026.4.9_update_1.10.0.3.txt"
+    },
+    {
+      "date": "2026-04-09",
+      "version": "1.10.0.3",
+      "update_type": "平衡调整",
+      "unit": "剑齿虎",
+      "tech": "NA",
+      "content": "攻击间隔 3.4s → 3.2s",
+      "filename": "2026.4.9_update_1.10.0.3.txt"
+    },
+    {
+      "date": "2026-04-09",
+      "version": "1.10.0.3",
+      "update_type": "平衡调整",
+      "unit": "剑齿虎",
+      "tech": "NA",
+      "content": "生命值 15541 → 14886（-4%）",
+      "filename": "2026.4.9_update_1.10.0.3.txt"
+    },
+    {
+      "date": "2026-04-09",
+      "version": "1.10.0.3",
+      "update_type": "单位改型",
+      "unit": "单位改型",
+      "tech": "突击雷霆",
+      "content": "生命值修正 +200% → +80%，射程修正 -50 → -20",
+      "filename": "2026.4.9_update_1.10.0.3.txt"
+    },
+    {
+      "date": "2026-04-09",
+      "version": "1.10.0.3",
+      "update_type": "平衡调整",
+      "unit": "狼蛛",
+      "tech": "蜘蛛雷",
+      "content": "爆炸伤害 4500 → 1000，爆炸范围 9 米 → 12 米，生命值 750 → 500，价格 300 → 200",
+      "filename": "2026.4.9_update_1.10.0.3.txt"
+    },
+    {
+      "date": "2026-04-09",
+      "version": "1.10.0.3",
+      "update_type": "平衡调整",
+      "unit": "野马",
+      "tech": "斩杀弹",
+      "content": "价格 200 → 100",
+      "filename": "2026.4.9_update_1.10.0.3.txt"
+    },
+    {
+      "date": "2026-04-09",
+      "version": "1.10.0.3",
+      "update_type": "新科技",
+      "unit": "雷霆",
+      "tech": "能量护盾",
+      "content": "新增科技：获得一个能量护盾，护盾值等于自身生命值，并且可以至少抵挡一次伤害。",
+      "filename": "2026.4.9_update_1.10.0.3.txt"
+    },
+    {
+      "date": "2026-04-09",
+      "version": "1.10.0.3",
+      "update_type": "平衡调整",
+      "unit": "魔眼",
+      "tech": "蓄能攻击",
+      "content": "攻击力修正 +175% → +120%",
+      "filename": "2026.4.9_update_1.10.0.3.txt"
+    },
+    {
+      "date": "2026-04-20",
+      "version": "1.10.1",
+      "update_type": "平衡调整",
+      "unit": "狼蛛",
+      "tech": "蜘蛛雷",
+      "content": "移动速度 21 → 24，生命值 500 → 750",
+      "filename": "2026.4.20_update_1.10.1.txt"
+    },
+    {
+      "date": "2026-04-20",
+      "version": "1.10.1",
+      "update_type": "平衡调整",
+      "unit": "猎犬",
+      "tech": "燃烧弹",
+      "content": "价格 200 → 250",
+      "filename": "2026.4.20_update_1.10.1.txt"
+    },
+    {
+      "date": "2026-04-23",
+      "version": "1.10.1.1",
+      "update_type": "平衡调整",
+      "unit": "弧光",
+      "tech": "蓄能攻击",
+      "content": "价格 200 → 150",
+      "filename": "2026.4.23_update_1.10.1.1.txt"
+    },
+    {
+      "date": "2026-04-23",
+      "version": "1.10.1.1",
+      "update_type": "平衡调整",
+      "unit": "弧光",
+      "tech": "震荡波",
+      "content": "价格 200 → 250",
+      "filename": "2026.4.23_update_1.10.1.1.txt"
+    },
+    {
+      "date": "2026-04-23",
+      "version": "1.10.1.1",
+      "update_type": "平衡调整",
+      "unit": "泰山",
+      "tech": "炮射火箭",
+      "content": "火箭弹的溅射范围 25 → 15",
+      "filename": "2026.4.23_update_1.10.1.1.txt"
+    },
+    {
+      "date": "2026-04-23",
+      "version": "1.10.1.1",
+      "update_type": "平衡调整",
+      "unit": "泰山",
+      "tech": "烟雾弹",
+      "content": "价格 250 → 350，发射的烟雾弹数量 10 → 8",
+      "filename": "2026.4.23_update_1.10.1.1.txt"
+    },
+    {
+      "date": "2026-04-23",
+      "version": "1.10.1.1",
+      "update_type": "平衡调整",
+      "unit": "野马",
+      "tech": "斩杀弹",
+      "content": "价格 100 → 150",
+      "filename": "2026.4.23_update_1.10.1.1.txt"
+    },
+    {
+      "date": "2026-05-14",
+      "version": "1.10.2",
+      "update_type": "平衡调整",
+      "unit": "先知",
+      "tech": "光子投射",
+      "content": "启动所需时间 1.1s → 0.6s",
+      "filename": "2026.5.14_update_1.10.2.txt"
+    },
+    {
+      "date": "2026-05-14",
+      "version": "1.10.2",
+      "update_type": "平衡调整",
+      "unit": "弧光",
+      "tech": "震荡波",
+      "content": "范围伤害 82 → 75",
+      "filename": "2026.5.14_update_1.10.2.txt"
+    },
+    {
+      "date": "2026-05-14",
+      "version": "1.10.2",
+      "update_type": "平衡调整",
+      "unit": "战场技能",
+      "tech": "光子投射",
+      "content": "启动所需时间 1.8s → 0.6s",
+      "filename": "2026.5.14_update_1.10.2.txt"
+    },
+    {
+      "date": "2026-05-14",
+      "version": "1.10.2",
+      "update_type": "平衡调整",
+      "unit": "狂蝎",
+      "tech": "酸性攻击",
+      "content": "价格 300 → 250 ，持续时间 15s → 18s",
+      "filename": "2026.5.14_update_1.10.2.txt"
+    },
+    {
+      "date": "2026-05-14",
+      "version": "1.10.2",
+      "update_type": "平衡调整",
+      "unit": "猎犬",
+      "tech": "枪膛增压",
+      "content": "攻击力每秒增加 70%→ 65%",
+      "filename": "2026.5.14_update_1.10.2.txt"
+    },
+    {
+      "date": "2026-05-14",
+      "version": "1.10.2",
+      "update_type": "平衡调整",
+      "unit": "野马",
+      "tech": "斩杀弹",
+      "content": "价格 150 → 200",
+      "filename": "2026.5.14_update_1.10.2.txt"
+    },
+    {
+      "date": "2026-05-14",
+      "version": "1.10.2",
+      "update_type": "平衡调整",
+      "unit": "霸主",
+      "tech": "光子投射",
+      "content": "启动所需时间 1.1s → 0.6s",
+      "filename": "2026.5.14_update_1.10.2.txt"
+    },
+    {
+      "date": "2026-05-14",
+      "version": "1.10.2",
+      "update_type": "平衡调整",
+      "unit": "魔眼",
+      "tech": "电磁装甲",
+      "content": "电磁效果持续时间 4s → 3.5s",
+      "filename": "2026.5.14_update_1.10.2.txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "先知",
+      "tech": "全弹发射",
+      "content": "价格 200 → 150",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "剑齿虎",
+      "tech": "导弹拦截",
+      "content": "价格 150 → 100",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "剑齿虎",
+      "tech": "战地维修",
+      "content": "价格 300 → 200",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "单位重制",
+      "unit": "台风",
+      "tech": "NA",
+      "content": "完全重制",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "单位重制",
+      "unit": "台风",
+      "tech": "反应装甲",
+      "content": "受到攻击时可以抵挡 80%的伤害，最多 5 次。",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "单位重制",
+      "unit": "台风",
+      "tech": "射程强化",
+      "content": "射程增加 40",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "单位重制",
+      "unit": "台风",
+      "tech": "战地重组",
+      "content": "台风被击毁后会进入重组修复状态，在 5 秒后以 100% 生命值重新回到战场，每回合限 1 次。",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "单位重制",
+      "unit": "台风",
+      "tech": "残骸引爆",
+      "content": "被台风击毁的单位会发生剧烈爆炸，对其周围 15 米内的所有单位造成 125 点伤害。",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "单位重制",
+      "unit": "台风",
+      "tech": "维修阵列",
+      "content": "每 3 秒一次，为台风自身及其周围 100 米内的友方单位恢复 500 点生命值。恢复量随台风等级提升，每级增加 500 点。",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "单位重制",
+      "unit": "台风",
+      "tech": "野战工事",
+      "content": "战斗开始时原地部署堑壕。驻扎期间无法移动，生命值上升 70%，射程上升 20。若射程内连续 7 秒没有敌人，台风将离开并摧毁堑壕。",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "单位重制",
+      "unit": "台风",
+      "tech": "防空标记",
+      "content": "每 10 秒发射一枚射程 160 米的标记弹，对目标周围 100 米范围内的敌方空军施加标记。被标记的单位射程减少 20，并在受到攻击时额外承受 30% 的伤害，持续 10 秒。",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "尖牙",
+      "tech": "机械狂暴",
+      "content": "价格 300 → 250",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "开局单位",
+      "tech": "弧光 & 钢球",
+      "content": "玩家生命值修正 +200 → +300",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "开局单位",
+      "tech": "爬虫 & 钢球",
+      "content": "玩家生命值修正 +100 → +200",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "战场技能",
+      "tech": "巨型电磁冲击",
+      "content": "对护盾伤害由 35000 → 20000",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "战场技能",
+      "tech": "烟雾弹",
+      "content": "持续时间 2 回合 → 1 回合",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "战场技能",
+      "tech": "电磁冲击",
+      "content": "对护盾伤害由 35000 → 20000",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "战场技能",
+      "tech": "酸液弹",
+      "content": "持续时间 2 回合 → 1 回合，价格 200 → 100",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "深渊",
+      "tech": "NA",
+      "content": "每次攻击会对铁锤最多造成 2 次伤害（原本仅能造成 1 次伤害）",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "深渊",
+      "tech": "残骸利用",
+      "content": "价格 300 → 200",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "火神",
+      "tech": "最佳搭档",
+      "content": "价格 250 → 300",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "爬虫",
+      "tech": "机械狂暴",
+      "content": "价格 150 → 100",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "爬虫",
+      "tech": "酸性爆炸",
+      "content": "价格 150 → 100",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "犀牛",
+      "tech": "战斗进化",
+      "content": "价格 200 → 150",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "犀牛",
+      "tech": "旋风斩",
+      "content": "攻击力修正 x1.5 倍→ x1.4 倍，溅射范围 32 → 35，价格 250 → 150。",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "犀牛",
+      "tech": "机械狂暴",
+      "content": "价格 150 → 100",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "犀牛",
+      "tech": "残骸利用",
+      "content": "攻击力修正 +20% → +60%",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "新科技",
+      "unit": "狂蝎",
+      "tech": "收束射击",
+      "content": "新增科技：攻击距离上升 20 米，攻击间隔减少 1 秒，但是溅射范围减少 8 米",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "狼蛛",
+      "tech": "蜘蛛雷",
+      "content": "爆炸伤害 1000 → 2500",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "狼蛛",
+      "tech": "装甲强化",
+      "content": "价格 200 → 100",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "猎犬",
+      "tech": "枪膛增压",
+      "content": "价格 200 → 300",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "磁暴",
+      "tech": "NA",
+      "content": "升级经验 700 → 750",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "磁暴",
+      "tech": "NA",
+      "content": "攻击力 1385 → 1246（-10%）",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "磁暴",
+      "tech": "NA",
+      "content": "进入初始单位池",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "磁暴",
+      "tech": "储能护盾",
+      "content": "效果调整为：攻击时在内部储能。每攻击 5 次，在当前位置部署一个半径 40 米的护盾，且增加下次部署护盾所需攻击次数 5。护盾基础生命值为 2000，磁暴每提升 1 级增加 2000。",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "磁暴",
+      "tech": "并网",
+      "content": "每个链接单位增加的攻击力修正 +15% → +35%，最大攻击力修正 +195% → +105%",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "磁暴",
+      "tech": "应急装甲",
+      "content": "价格 100 → 150",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "磁暴",
+      "tech": "战地维修",
+      "content": "价格 100 → 150",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "磁暴",
+      "tech": "电磁双生",
+      "content": "价格 400 → 350",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "铁锤",
+      "tech": "穿甲弹",
+      "content": "价格 200 → 150",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "长弓",
+      "tech": "快速弹夹",
+      "content": "价格 250 → 150，伤害修正 -50% → -60%",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "长弓",
+      "tech": "突击模式",
+      "content": "攻击力修正 +50%→ +60%",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "雷霆",
+      "tech": "能量护盾",
+      "content": "价格 300 → 200",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "骇客",
+      "tech": "NA",
+      "content": "现在骇客在控制一个新目标前，总会需要一个 0.9 秒的准备时间",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "鬼鳐",
+      "tech": "对地锁定",
+      "content": "攻击力不再降低，价格 150 → 200",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    },
+    {
+      "date": "2026-06-09",
+      "version": "1.11",
+      "update_type": "平衡调整",
+      "unit": "魔眼",
+      "tech": "电磁装甲",
+      "content": "持续时间 3.5s → 3s",
+      "filename": "2026.6.9_update_1.11(1).txt"
+    }
+  ],
+  "unit_changes": {
+    "先知": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "先知",
+        "tech": "导弹拦截",
+        "content": "拦截效率增加40%"
+      },
+      {
+        "date": "2026-04-09",
+        "version": "1.10.0.3",
+        "update_type": "平衡调整",
+        "unit": "先知",
+        "tech": "搜索雷达",
+        "content": "价格 300 → 200"
+      },
+      {
+        "date": "2026-05-14",
+        "version": "1.10.2",
+        "update_type": "平衡调整",
+        "unit": "先知",
+        "tech": "光子投射",
+        "content": "启动所需时间 1.1s → 0.6s"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "先知",
+        "tech": "全弹发射",
+        "content": "价格 200 → 150"
+      }
+    ],
+    "尖牙": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "尖牙",
+        "tech": "榴弹发射器",
+        "content": "射程修正 0 → +5"
+      },
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "平衡调整",
+        "unit": "尖牙",
+        "tech": "榴弹发射器",
+        "content": "射程 +5 → +15"
+      },
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "尖牙",
+        "tech": "榴弹发射器",
+        "content": "射程修正 +15 → +10"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "尖牙",
+        "tech": "机械狂暴",
+        "content": "价格 300 → 250"
+      }
+    ],
+    "弧光": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "弧光",
+        "tech": "震荡波",
+        "content": "射程修正 -20 → -5"
+      },
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "平衡调整",
+        "unit": "弧光",
+        "tech": "蓄能攻击",
+        "content": "价格 250 → 200"
+      },
+      {
+        "date": "2026-04-23",
+        "version": "1.10.1.1",
+        "update_type": "平衡调整",
+        "unit": "弧光",
+        "tech": "蓄能攻击",
+        "content": "价格 200 → 150"
+      },
+      {
+        "date": "2026-04-23",
+        "version": "1.10.1.1",
+        "update_type": "平衡调整",
+        "unit": "弧光",
+        "tech": "震荡波",
+        "content": "价格 200 → 250"
+      },
+      {
+        "date": "2026-05-14",
+        "version": "1.10.2",
+        "update_type": "平衡调整",
+        "unit": "弧光",
+        "tech": "震荡波",
+        "content": "范围伤害 82 → 75"
+      }
+    ],
+    "战争工厂": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "战争工厂",
+        "tech": "光子涂层",
+        "content": "持续时间 25s → 30s"
+      }
+    ],
+    "泰山": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "泰山",
+        "tech": "光子循环",
+        "content": "持续时间 15s → 20s"
+      },
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "泰山",
+        "tech": "烟雾弹",
+        "content": "价格 350 → 250"
+      },
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "平衡调整",
+        "unit": "泰山",
+        "tech": "光子循环",
+        "content": "持续时间 20s → 25s"
+      },
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "平衡调整",
+        "unit": "泰山",
+        "tech": "烟雾弹",
+        "content": "发射间隔 40s → 25s"
+      },
+      {
+        "date": "2026-04-23",
+        "version": "1.10.1.1",
+        "update_type": "平衡调整",
+        "unit": "泰山",
+        "tech": "炮射火箭",
+        "content": "火箭弹的溅射范围 25 → 15"
+      },
+      {
+        "date": "2026-04-23",
+        "version": "1.10.1.1",
+        "update_type": "平衡调整",
+        "unit": "泰山",
+        "tech": "烟雾弹",
+        "content": "价格 250 → 350，发射的烟雾弹数量 10 → 8"
+      }
+    ],
+    "深渊": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "深渊",
+        "tech": "光子涂层",
+        "content": "持续时间 25s → 30s"
+      },
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "深渊",
+        "tech": "残骸利用",
+        "content": "攻击力修正 +20% → +35%"
+      },
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "深渊",
+        "tech": "裂解",
+        "content": "价格 400 → 350"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "深渊",
+        "tech": "NA",
+        "content": "每次攻击会对铁锤最多造成 2 次伤害（原本仅能造成 1 次伤害）"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "深渊",
+        "tech": "残骸利用",
+        "content": "价格 300 → 200"
+      }
+    ],
+    "火獾": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "火獾",
+        "tech": "NA",
+        "content": "攻击力 24 → 25（+5%）"
+      },
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "平衡调整",
+        "unit": "火獾",
+        "tech": "NA",
+        "content": "攻击力 25 → 27（+8%）"
+      }
+    ],
+    "火神": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "火神",
+        "tech": "黏油弹",
+        "content": "价格 250 → 200"
+      },
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "平衡调整",
+        "unit": "火神",
+        "tech": "NA",
+        "content": "攻击力 74 → 75（+2%）"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "火神",
+        "tech": "最佳搭档",
+        "content": "价格 250 → 300"
+      }
+    ],
+    "犀牛": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "犀牛",
+        "tech": "光子涂层",
+        "content": "持续时间 25s → 30s"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "犀牛",
+        "tech": "战斗进化",
+        "content": "价格 200 → 150"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "犀牛",
+        "tech": "旋风斩",
+        "content": "攻击力修正 x1.5 倍→ x1.4 倍，溅射范围 32 → 35，价格 250 → 150。"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "犀牛",
+        "tech": "机械狂暴",
+        "content": "价格 150 → 100"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "犀牛",
+        "tech": "残骸利用",
+        "content": "攻击力修正 +20% → +60%"
+      }
+    ],
+    "狼蛛": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "狼蛛",
+        "tech": "战地维修",
+        "content": "价格 200 → 150"
+      },
+      {
+        "date": "2026-04-09",
+        "version": "1.10.0.3",
+        "update_type": "平衡调整",
+        "unit": "狼蛛",
+        "tech": "蜘蛛雷",
+        "content": "爆炸伤害 4500 → 1000，爆炸范围 9 米 → 12 米，生命值 750 → 500，价格 300 → 200"
+      },
+      {
+        "date": "2026-04-20",
+        "version": "1.10.1",
+        "update_type": "平衡调整",
+        "unit": "狼蛛",
+        "tech": "蜘蛛雷",
+        "content": "移动速度 21 → 24，生命值 500 → 750"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "狼蛛",
+        "tech": "蜘蛛雷",
+        "content": "爆炸伤害 1000 → 2500"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "狼蛛",
+        "tech": "装甲强化",
+        "content": "价格 200 → 100"
+      }
+    ],
+    "装备": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "装备",
+        "tech": "光子涂层",
+        "content": "持续时间 25s → 30s"
+      },
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "装备",
+        "tech": "坦克生产线",
+        "content": "现在最多可生产7次"
+      },
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "装备",
+        "tech": "野马生产线",
+        "content": "现在最多可生产8次"
+      },
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "装备",
+        "tech": "钢球生产线",
+        "content": "现在最多可生产6次"
+      },
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "平衡调整",
+        "unit": "装备",
+        "tech": "强化模块",
+        "content": "攻击力上升 25%，生命值上升 25%，并且升级消耗的补给减少 100"
+      },
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "平衡调整",
+        "unit": "装备",
+        "tech": "统御核心",
+        "content": "现在会在全部游戏模式中出现"
+      }
+    ],
+    "钢球": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "钢球",
+        "tech": "滚动充能",
+        "content": "每移动9米，射程增加1米 → 每移动7米，射程增加1米，最大增加100米射程"
+      }
+    ],
+    "铁锤": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "铁锤",
+        "tech": "电磁弹",
+        "content": "价格 400 → 350"
+      },
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "铁锤",
+        "tech": "穿甲弹",
+        "content": "攻击力修正 +225% → +250%"
+      },
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "铁锤",
+        "tech": "穿甲弹",
+        "content": "攻速修正 -40% → -30%"
+      },
+      {
+        "date": "2026-04-01",
+        "version": "1.10.0.2",
+        "update_type": "平衡调整",
+        "unit": "铁锤",
+        "tech": "机械狂暴",
+        "content": "价格 300 → 250"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "铁锤",
+        "tech": "穿甲弹",
+        "content": "价格 200 → 150"
+      }
+    ],
+    "霸主": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "霸主",
+        "tech": "战地维修",
+        "content": "价格 200 → 150"
+      },
+      {
+        "date": "2026-05-14",
+        "version": "1.10.2",
+        "update_type": "平衡调整",
+        "unit": "霸主",
+        "tech": "光子投射",
+        "content": "启动所需时间 1.1s → 0.6s"
+      }
+    ],
+    "剑齿虎": [
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "新科技",
+        "unit": "剑齿虎",
+        "tech": "野战工事",
+        "content": "战斗开始时原地部署堑壕。驻扎期间无法移动，生命值上升 50%，攻击间隔下降 20%，射程上升 20。若射程内连续 7 秒没有敌人，剑齿虎将离开并摧毁堑壕。"
+      },
+      {
+        "date": "2026-04-09",
+        "version": "1.10.0.3",
+        "update_type": "平衡调整",
+        "unit": "剑齿虎",
+        "tech": "NA",
+        "content": "攻击力 7858 → 7243（-8%）"
+      },
+      {
+        "date": "2026-04-09",
+        "version": "1.10.0.3",
+        "update_type": "平衡调整",
+        "unit": "剑齿虎",
+        "tech": "NA",
+        "content": "攻击间隔 3.4s → 3.2s"
+      },
+      {
+        "date": "2026-04-09",
+        "version": "1.10.0.3",
+        "update_type": "平衡调整",
+        "unit": "剑齿虎",
+        "tech": "NA",
+        "content": "生命值 15541 → 14886（-4%）"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "剑齿虎",
+        "tech": "导弹拦截",
+        "content": "价格 150 → 100"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "剑齿虎",
+        "tech": "战地维修",
+        "content": "价格 300 → 200"
+      }
+    ],
+    "恶灵": [
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "平衡调整",
+        "unit": "恶灵",
+        "tech": "地面巡航",
+        "content": "攻击间隔 +0.5s → 0.6s"
+      }
+    ],
+    "爬虫": [
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "平衡调整",
+        "unit": "爬虫",
+        "tech": "松散队列",
+        "content": "价格 400 → 350"
+      },
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "平衡调整",
+        "unit": "爬虫",
+        "tech": "潜地行动",
+        "content": "价格 300 → 350"
+      },
+      {
+        "date": "2026-02-27",
+        "version": "1.9.1.3",
+        "update_type": "平衡调整",
+        "unit": "爬虫",
+        "tech": "松散队列",
+        "content": "价格 350 → 250"
+      },
+      {
+        "date": "2026-02-27",
+        "version": "1.9.1.3",
+        "update_type": "平衡调整",
+        "unit": "爬虫",
+        "tech": "潜地行动",
+        "content": "减免伤害 55% → 50%"
+      },
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "爬虫",
+        "tech": "潜地行动",
+        "content": "伤害减免 50%  → 45%"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "爬虫",
+        "tech": "机械狂暴",
+        "content": "价格 150 → 100"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "爬虫",
+        "tech": "酸性爆炸",
+        "content": "价格 150 → 100"
+      }
+    ],
+    "猎犬": [
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "平衡调整",
+        "unit": "猎犬",
+        "tech": "NA",
+        "content": "生命值 897 → 879（-2%）"
+      },
+      {
+        "date": "2026-02-10",
+        "version": "1.9.1.2",
+        "update_type": "平衡调整",
+        "unit": "猎犬",
+        "tech": "NA",
+        "content": "升级所需经验提升 1.4 → 1.5"
+      },
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "猎犬",
+        "tech": "枪膛增压",
+        "content": "攻击间隔 +0.6s，每秒攻击力修正 +35% → +60%"
+      },
+      {
+        "date": "2026-04-01",
+        "version": "1.10.0.2",
+        "update_type": "平衡调整",
+        "unit": "猎犬",
+        "tech": "枪膛增压",
+        "content": "每秒攻击力加成 60% → 70%"
+      },
+      {
+        "date": "2026-04-01",
+        "version": "1.10.0.2",
+        "update_type": "平衡调整",
+        "unit": "猎犬",
+        "tech": "燃烧弹",
+        "content": "火焰持续时间 12s → 10s"
+      },
+      {
+        "date": "2026-04-20",
+        "version": "1.10.1",
+        "update_type": "平衡调整",
+        "unit": "猎犬",
+        "tech": "燃烧弹",
+        "content": "价格 200 → 250"
+      },
+      {
+        "date": "2026-05-14",
+        "version": "1.10.2",
+        "update_type": "平衡调整",
+        "unit": "猎犬",
+        "tech": "枪膛增压",
+        "content": "攻击力每秒增加 70%→ 65%"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "猎犬",
+        "tech": "枪膛增压",
+        "content": "价格 200 → 300"
+      }
+    ],
+    "野马": [
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "新科技",
+        "unit": "野马",
+        "tech": "斩杀弹",
+        "content": "攻击直接摧毁当前生命值低于 300（每升一级 +100）的目标。攻击力下降 50%。"
+      },
+      {
+        "date": "2026-02-10",
+        "version": "1.9.1.2",
+        "update_type": "平衡调整",
+        "unit": "野马",
+        "tech": "斩杀弹",
+        "content": "每级斩杀门槛增加 +100 → +150"
+      },
+      {
+        "date": "2026-02-27",
+        "version": "1.9.1.3",
+        "update_type": "平衡调整",
+        "unit": "野马",
+        "tech": "斩杀弹",
+        "content": "每级斩杀门槛增加 +150 → +200"
+      },
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "野马",
+        "tech": "斩杀弹",
+        "content": "斩杀门槛 300 → 320"
+      },
+      {
+        "date": "2026-04-01",
+        "version": "1.10.0.2",
+        "update_type": "平衡调整",
+        "unit": "野马",
+        "tech": "斩杀弹",
+        "content": "攻击力修正 -50% → -35%"
+      },
+      {
+        "date": "2026-04-09",
+        "version": "1.10.0.3",
+        "update_type": "平衡调整",
+        "unit": "野马",
+        "tech": "斩杀弹",
+        "content": "价格 200 → 100"
+      },
+      {
+        "date": "2026-04-23",
+        "version": "1.10.1.1",
+        "update_type": "平衡调整",
+        "unit": "野马",
+        "tech": "斩杀弹",
+        "content": "价格 100 → 150"
+      },
+      {
+        "date": "2026-05-14",
+        "version": "1.10.2",
+        "update_type": "平衡调整",
+        "unit": "野马",
+        "tech": "斩杀弹",
+        "content": "价格 150 → 200"
+      }
+    ],
+    "鬼鳐": [
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "平衡调整",
+        "unit": "鬼鳐",
+        "tech": "对地增程",
+        "content": "攻击力下降 40% → 20%，价格 100 → 200"
+      },
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "鬼鳐",
+        "tech": "隐形",
+        "content": "价格 200 → 100"
+      },
+      {
+        "date": "2026-04-01",
+        "version": "1.10.0.2",
+        "update_type": "平衡调整",
+        "unit": "鬼鳐",
+        "tech": "对地锁定",
+        "content": "价格 200 → 150"
+      },
+      {
+        "date": "2026-04-01",
+        "version": "1.10.0.2",
+        "update_type": "平衡调整",
+        "unit": "鬼鳐",
+        "tech": "高爆弹药",
+        "content": "价格 200 → 150"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "鬼鳐",
+        "tech": "对地锁定",
+        "content": "攻击力不再降低，价格 150 → 200"
+      }
+    ],
+    "狂蝎": [
+      {
+        "date": "2026-02-27",
+        "version": "1.9.1.3",
+        "update_type": "平衡调整",
+        "unit": "狂蝎",
+        "tech": "双发",
+        "content": "价格 200 → 100"
+      },
+      {
+        "date": "2026-05-14",
+        "version": "1.10.2",
+        "update_type": "平衡调整",
+        "unit": "狂蝎",
+        "tech": "酸性攻击",
+        "content": "价格 300 → 250 ，持续时间 15s → 18s"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "新科技",
+        "unit": "狂蝎",
+        "tech": "收束射击",
+        "content": "新增科技：攻击距离上升 20 米，攻击间隔减少 1 秒，但是溅射范围减少 8 米"
+      }
+    ],
+    "开局单位": [
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "开局单位",
+        "tech": "剑齿虎 & 猎犬",
+        "content": "玩家生命值修正  -200 → -300"
+      },
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "开局单位",
+        "tech": "火獾 & 魔眼",
+        "content": "玩家生命值修正  0 → +200"
+      },
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "开局单位",
+        "tech": "狼蛛 & 魔眼",
+        "content": "玩家生命值修正  0 → +200"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "开局单位",
+        "tech": "弧光 & 钢球",
+        "content": "玩家生命值修正 +200 → +300"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "开局单位",
+        "tech": "爬虫 & 钢球",
+        "content": "玩家生命值修正 +100 → +200"
+      }
+    ],
+    "熔点": [
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "熔点",
+        "tech": "电磁弹幕",
+        "content": "对护盾伤害 4000 → 6000"
+      }
+    ],
+    "磁暴": [
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "新单位",
+        "unit": "磁暴",
+        "tech": "NA",
+        "content": "新增单位：磁暴"
+      },
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "新单位科技",
+        "unit": "磁暴",
+        "tech": "储能护盾",
+        "content": "攻击时在内部储能。每攻击 13 次，在当前位置部署一个半径 40 米的能量护盾。护盾初始生命值为 4500，磁暴每提升 1 级，护盾生命值额外增加 4500。"
+      },
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "新单位科技",
+        "unit": "磁暴",
+        "tech": "射程强化",
+        "content": "射程增加40。"
+      },
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "新单位科技",
+        "unit": "磁暴",
+        "tech": "并网",
+        "content": "与 25 米内的其他磁暴产生链接。每多一个互相链接的单位，攻击力上升 15%。"
+      },
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "新单位科技",
+        "unit": "磁暴",
+        "tech": "应急装甲",
+        "content": "生命值首次低于 50% 时，启动应急装甲，抵抗所有伤害且无法被敌人锁定，持续 4 秒。生命值为 0 时无法启动应急装甲。"
+      },
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "新单位科技",
+        "unit": "磁暴",
+        "tech": "电磁云",
+        "content": "攻击对目标和目标周围 10 米内的敌方单位形成电磁干扰。"
+      },
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "新单位科技",
+        "unit": "磁暴",
+        "tech": "电磁双生",
+        "content": "战斗开始时，在身后生成一个 1 级磁暴幻影。幻影的生命值为 1，且攻击力为普通磁暴的 30%。"
+      },
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "新单位科技",
+        "unit": "磁暴",
+        "tech": "移动电站",
+        "content": "射程增加 10，提升 100 米内地面友军单位 20% 的攻击力（效果不可叠加）。"
+      },
+      {
+        "date": "2026-03-19",
+        "version": "1.10.0.1",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "NA",
+        "content": "攻击力 1200 → 1385（+15%）"
+      },
+      {
+        "date": "2026-03-19",
+        "version": "1.10.0.1",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "NA",
+        "content": "攻击间隔 1.3s → 1.5s"
+      },
+      {
+        "date": "2026-03-19",
+        "version": "1.10.0.1",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "储能护盾",
+        "content": "每攻击 13 次生成一个护盾 → 每攻击 11 次生成一个护盾；护盾生命值 4500 → 5000"
+      },
+      {
+        "date": "2026-03-19",
+        "version": "1.10.0.1",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "并网",
+        "content": "与 25 米内的其他磁暴产生链接。每多一个互相链接的单位，攻击力上升 15% → 与 25 米内的其他磁暴产生链接。每多一个互相链接的单位，攻击力上升 15%，最大上升 195%"
+      },
+      {
+        "date": "2026-03-19",
+        "version": "1.10.0.1",
+        "update_type": "新科技",
+        "unit": "磁暴",
+        "tech": "战地维修",
+        "content": "新增科技：生命值上升 30%，受伤后每秒自动恢复最大生命值的 4.5%"
+      },
+      {
+        "date": "2026-03-19",
+        "version": "1.10.0.1",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "电磁双生",
+        "content": "价格 300 → 400"
+      },
+      {
+        "date": "2026-03-19",
+        "version": "1.10.0.1",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "移动电站",
+        "content": "价格 300 → 250"
+      },
+      {
+        "date": "2026-04-01",
+        "version": "1.10.0.2",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "并网",
+        "content": "链接距离 25 → 35"
+      },
+      {
+        "date": "2026-04-01",
+        "version": "1.10.0.2",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "应急装甲",
+        "content": "价格 200 → 100"
+      },
+      {
+        "date": "2026-04-01",
+        "version": "1.10.0.2",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "战地维修",
+        "content": "价格 200 → 100"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "NA",
+        "content": "升级经验 700 → 750"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "NA",
+        "content": "攻击力 1385 → 1246（-10%）"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "NA",
+        "content": "进入初始单位池"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "储能护盾",
+        "content": "效果调整为：攻击时在内部储能。每攻击 5 次，在当前位置部署一个半径 40 米的护盾，且增加下次部署护盾所需攻击次数 5。护盾基础生命值为 2000，磁暴每提升 1 级增加 2000。"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "并网",
+        "content": "每个链接单位增加的攻击力修正 +15% → +35%，最大攻击力修正 +195% → +105%"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "应急装甲",
+        "content": "价格 100 → 150"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "战地维修",
+        "content": "价格 100 → 150"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "电磁双生",
+        "content": "价格 400 → 350"
+      }
+    ],
+    "魔眼": [
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "魔眼",
+        "tech": "NA",
+        "content": "攻击力 947 → 995（+5%）"
+      },
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "魔眼",
+        "tech": "蓄能攻击",
+        "content": "价格 150 → 100"
+      },
+      {
+        "date": "2026-04-09",
+        "version": "1.10.0.3",
+        "update_type": "平衡调整",
+        "unit": "魔眼",
+        "tech": "蓄能攻击",
+        "content": "攻击力修正 +175% → +120%"
+      },
+      {
+        "date": "2026-05-14",
+        "version": "1.10.2",
+        "update_type": "平衡调整",
+        "unit": "魔眼",
+        "tech": "电磁装甲",
+        "content": "电磁效果持续时间 4s → 3.5s"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "魔眼",
+        "tech": "电磁装甲",
+        "content": "持续时间 3.5s → 3s"
+      }
+    ],
+    "单位改型": [
+      {
+        "date": "2026-04-01",
+        "version": "1.10.0.2",
+        "update_type": "单位改型",
+        "unit": "单位改型",
+        "tech": "改进型剑齿虎",
+        "content": "攻击间隔修正 -0.6s → -0.9s"
+      },
+      {
+        "date": "2026-04-09",
+        "version": "1.10.0.3",
+        "update_type": "单位改型",
+        "unit": "单位改型",
+        "tech": "突击雷霆",
+        "content": "生命值修正 +200% → +80%，射程修正 -50 → -20"
+      }
+    ],
+    "沙虫": [
+      {
+        "date": "2026-04-01",
+        "version": "1.10.0.2",
+        "update_type": "平衡调整",
+        "unit": "沙虫",
+        "tech": "机械分裂",
+        "content": "价格 150 → 200"
+      },
+      {
+        "date": "2026-04-01",
+        "version": "1.10.0.2",
+        "update_type": "平衡调整",
+        "unit": "沙虫",
+        "tech": "沙暴",
+        "content": "持续时间 5s → 7s"
+      },
+      {
+        "date": "2026-04-01",
+        "version": "1.10.0.2",
+        "update_type": "平衡调整",
+        "unit": "沙虫",
+        "tech": "突袭",
+        "content": "价格 200 → 150"
+      }
+    ],
+    "雷霆": [
+      {
+        "date": "2026-04-09",
+        "version": "1.10.0.3",
+        "update_type": "新科技",
+        "unit": "雷霆",
+        "tech": "能量护盾",
+        "content": "新增科技：获得一个能量护盾，护盾值等于自身生命值，并且可以至少抵挡一次伤害。"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "雷霆",
+        "tech": "能量护盾",
+        "content": "价格 300 → 200"
+      }
+    ],
+    "战场技能": [
+      {
+        "date": "2026-05-14",
+        "version": "1.10.2",
+        "update_type": "平衡调整",
+        "unit": "战场技能",
+        "tech": "光子投射",
+        "content": "启动所需时间 1.8s → 0.6s"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "战场技能",
+        "tech": "巨型电磁冲击",
+        "content": "对护盾伤害由 35000 → 20000"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "战场技能",
+        "tech": "烟雾弹",
+        "content": "持续时间 2 回合 → 1 回合"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "战场技能",
+        "tech": "电磁冲击",
+        "content": "对护盾伤害由 35000 → 20000"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "战场技能",
+        "tech": "酸液弹",
+        "content": "持续时间 2 回合 → 1 回合，价格 200 → 100"
+      }
+    ],
+    "台风": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "单位重制",
+        "unit": "台风",
+        "tech": "NA",
+        "content": "完全重制"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "单位重制",
+        "unit": "台风",
+        "tech": "反应装甲",
+        "content": "受到攻击时可以抵挡 80%的伤害，最多 5 次。"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "单位重制",
+        "unit": "台风",
+        "tech": "射程强化",
+        "content": "射程增加 40"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "单位重制",
+        "unit": "台风",
+        "tech": "战地重组",
+        "content": "台风被击毁后会进入重组修复状态，在 5 秒后以 100% 生命值重新回到战场，每回合限 1 次。"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "单位重制",
+        "unit": "台风",
+        "tech": "残骸引爆",
+        "content": "被台风击毁的单位会发生剧烈爆炸，对其周围 15 米内的所有单位造成 125 点伤害。"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "单位重制",
+        "unit": "台风",
+        "tech": "维修阵列",
+        "content": "每 3 秒一次，为台风自身及其周围 100 米内的友方单位恢复 500 点生命值。恢复量随台风等级提升，每级增加 500 点。"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "单位重制",
+        "unit": "台风",
+        "tech": "野战工事",
+        "content": "战斗开始时原地部署堑壕。驻扎期间无法移动，生命值上升 70%，射程上升 20。若射程内连续 7 秒没有敌人，台风将离开并摧毁堑壕。"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "单位重制",
+        "unit": "台风",
+        "tech": "防空标记",
+        "content": "每 10 秒发射一枚射程 160 米的标记弹，对目标周围 100 米范围内的敌方空军施加标记。被标记的单位射程减少 20，并在受到攻击时额外承受 30% 的伤害，持续 10 秒。"
+      }
+    ],
+    "长弓": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "长弓",
+        "tech": "快速弹夹",
+        "content": "价格 250 → 150，伤害修正 -50% → -60%"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "长弓",
+        "tech": "突击模式",
+        "content": "攻击力修正 +50%→ +60%"
+      }
+    ],
+    "骇客": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "骇客",
+        "tech": "NA",
+        "content": "现在骇客在控制一个新目标前，总会需要一个 0.9 秒的准备时间"
+      }
+    ]
+  },
+  "tech_changes": {
+    "先知|||导弹拦截": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "先知",
+        "tech": "导弹拦截",
+        "content": "拦截效率增加40%"
+      }
+    ],
+    "尖牙|||榴弹发射器": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "尖牙",
+        "tech": "榴弹发射器",
+        "content": "射程修正 0 → +5"
+      },
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "平衡调整",
+        "unit": "尖牙",
+        "tech": "榴弹发射器",
+        "content": "射程 +5 → +15"
+      },
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "尖牙",
+        "tech": "榴弹发射器",
+        "content": "射程修正 +15 → +10"
+      }
+    ],
+    "弧光|||震荡波": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "弧光",
+        "tech": "震荡波",
+        "content": "射程修正 -20 → -5"
+      },
+      {
+        "date": "2026-04-23",
+        "version": "1.10.1.1",
+        "update_type": "平衡调整",
+        "unit": "弧光",
+        "tech": "震荡波",
+        "content": "价格 200 → 250"
+      },
+      {
+        "date": "2026-05-14",
+        "version": "1.10.2",
+        "update_type": "平衡调整",
+        "unit": "弧光",
+        "tech": "震荡波",
+        "content": "范围伤害 82 → 75"
+      }
+    ],
+    "战争工厂|||光子涂层": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "战争工厂",
+        "tech": "光子涂层",
+        "content": "持续时间 25s → 30s"
+      }
+    ],
+    "泰山|||光子循环": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "泰山",
+        "tech": "光子循环",
+        "content": "持续时间 15s → 20s"
+      },
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "平衡调整",
+        "unit": "泰山",
+        "tech": "光子循环",
+        "content": "持续时间 20s → 25s"
+      }
+    ],
+    "泰山|||烟雾弹": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "泰山",
+        "tech": "烟雾弹",
+        "content": "价格 350 → 250"
+      },
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "平衡调整",
+        "unit": "泰山",
+        "tech": "烟雾弹",
+        "content": "发射间隔 40s → 25s"
+      },
+      {
+        "date": "2026-04-23",
+        "version": "1.10.1.1",
+        "update_type": "平衡调整",
+        "unit": "泰山",
+        "tech": "烟雾弹",
+        "content": "价格 250 → 350，发射的烟雾弹数量 10 → 8"
+      }
+    ],
+    "深渊|||光子涂层": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "深渊",
+        "tech": "光子涂层",
+        "content": "持续时间 25s → 30s"
+      }
+    ],
+    "火神|||黏油弹": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "火神",
+        "tech": "黏油弹",
+        "content": "价格 250 → 200"
+      }
+    ],
+    "犀牛|||光子涂层": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "犀牛",
+        "tech": "光子涂层",
+        "content": "持续时间 25s → 30s"
+      }
+    ],
+    "狼蛛|||战地维修": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "狼蛛",
+        "tech": "战地维修",
+        "content": "价格 200 → 150"
+      }
+    ],
+    "装备|||光子涂层": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "装备",
+        "tech": "光子涂层",
+        "content": "持续时间 25s → 30s"
+      }
+    ],
+    "装备|||坦克生产线": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "装备",
+        "tech": "坦克生产线",
+        "content": "现在最多可生产7次"
+      }
+    ],
+    "装备|||野马生产线": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "装备",
+        "tech": "野马生产线",
+        "content": "现在最多可生产8次"
+      }
+    ],
+    "装备|||钢球生产线": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "装备",
+        "tech": "钢球生产线",
+        "content": "现在最多可生产6次"
+      }
+    ],
+    "钢球|||滚动充能": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "钢球",
+        "tech": "滚动充能",
+        "content": "每移动9米，射程增加1米 → 每移动7米，射程增加1米，最大增加100米射程"
+      }
+    ],
+    "铁锤|||电磁弹": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "铁锤",
+        "tech": "电磁弹",
+        "content": "价格 400 → 350"
+      }
+    ],
+    "铁锤|||穿甲弹": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "铁锤",
+        "tech": "穿甲弹",
+        "content": "攻击力修正 +225% → +250%"
+      },
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "铁锤",
+        "tech": "穿甲弹",
+        "content": "攻速修正 -40% → -30%"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "铁锤",
+        "tech": "穿甲弹",
+        "content": "价格 200 → 150"
+      }
+    ],
+    "霸主|||战地维修": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "霸主",
+        "tech": "战地维修",
+        "content": "价格 200 → 150"
+      }
+    ],
+    "剑齿虎|||野战工事": [
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "新科技",
+        "unit": "剑齿虎",
+        "tech": "野战工事",
+        "content": "战斗开始时原地部署堑壕。驻扎期间无法移动，生命值上升 50%，攻击间隔下降 20%，射程上升 20。若射程内连续 7 秒没有敌人，剑齿虎将离开并摧毁堑壕。"
+      }
+    ],
+    "弧光|||蓄能攻击": [
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "平衡调整",
+        "unit": "弧光",
+        "tech": "蓄能攻击",
+        "content": "价格 250 → 200"
+      },
+      {
+        "date": "2026-04-23",
+        "version": "1.10.1.1",
+        "update_type": "平衡调整",
+        "unit": "弧光",
+        "tech": "蓄能攻击",
+        "content": "价格 200 → 150"
+      }
+    ],
+    "恶灵|||地面巡航": [
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "平衡调整",
+        "unit": "恶灵",
+        "tech": "地面巡航",
+        "content": "攻击间隔 +0.5s → 0.6s"
+      }
+    ],
+    "爬虫|||松散队列": [
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "平衡调整",
+        "unit": "爬虫",
+        "tech": "松散队列",
+        "content": "价格 400 → 350"
+      },
+      {
+        "date": "2026-02-27",
+        "version": "1.9.1.3",
+        "update_type": "平衡调整",
+        "unit": "爬虫",
+        "tech": "松散队列",
+        "content": "价格 350 → 250"
+      }
+    ],
+    "爬虫|||潜地行动": [
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "平衡调整",
+        "unit": "爬虫",
+        "tech": "潜地行动",
+        "content": "价格 300 → 350"
+      },
+      {
+        "date": "2026-02-27",
+        "version": "1.9.1.3",
+        "update_type": "平衡调整",
+        "unit": "爬虫",
+        "tech": "潜地行动",
+        "content": "减免伤害 55% → 50%"
+      },
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "爬虫",
+        "tech": "潜地行动",
+        "content": "伤害减免 50%  → 45%"
+      }
+    ],
+    "装备|||强化模块": [
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "平衡调整",
+        "unit": "装备",
+        "tech": "强化模块",
+        "content": "攻击力上升 25%，生命值上升 25%，并且升级消耗的补给减少 100"
+      }
+    ],
+    "装备|||统御核心": [
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "平衡调整",
+        "unit": "装备",
+        "tech": "统御核心",
+        "content": "现在会在全部游戏模式中出现"
+      }
+    ],
+    "野马|||斩杀弹": [
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "新科技",
+        "unit": "野马",
+        "tech": "斩杀弹",
+        "content": "攻击直接摧毁当前生命值低于 300（每升一级 +100）的目标。攻击力下降 50%。"
+      },
+      {
+        "date": "2026-02-10",
+        "version": "1.9.1.2",
+        "update_type": "平衡调整",
+        "unit": "野马",
+        "tech": "斩杀弹",
+        "content": "每级斩杀门槛增加 +100 → +150"
+      },
+      {
+        "date": "2026-02-27",
+        "version": "1.9.1.3",
+        "update_type": "平衡调整",
+        "unit": "野马",
+        "tech": "斩杀弹",
+        "content": "每级斩杀门槛增加 +150 → +200"
+      },
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "野马",
+        "tech": "斩杀弹",
+        "content": "斩杀门槛 300 → 320"
+      },
+      {
+        "date": "2026-04-01",
+        "version": "1.10.0.2",
+        "update_type": "平衡调整",
+        "unit": "野马",
+        "tech": "斩杀弹",
+        "content": "攻击力修正 -50% → -35%"
+      },
+      {
+        "date": "2026-04-09",
+        "version": "1.10.0.3",
+        "update_type": "平衡调整",
+        "unit": "野马",
+        "tech": "斩杀弹",
+        "content": "价格 200 → 100"
+      },
+      {
+        "date": "2026-04-23",
+        "version": "1.10.1.1",
+        "update_type": "平衡调整",
+        "unit": "野马",
+        "tech": "斩杀弹",
+        "content": "价格 100 → 150"
+      },
+      {
+        "date": "2026-05-14",
+        "version": "1.10.2",
+        "update_type": "平衡调整",
+        "unit": "野马",
+        "tech": "斩杀弹",
+        "content": "价格 150 → 200"
+      }
+    ],
+    "鬼鳐|||对地增程": [
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "平衡调整",
+        "unit": "鬼鳐",
+        "tech": "对地增程",
+        "content": "攻击力下降 40% → 20%，价格 100 → 200"
+      }
+    ],
+    "狂蝎|||双发": [
+      {
+        "date": "2026-02-27",
+        "version": "1.9.1.3",
+        "update_type": "平衡调整",
+        "unit": "狂蝎",
+        "tech": "双发",
+        "content": "价格 200 → 100"
+      }
+    ],
+    "开局单位|||剑齿虎 & 猎犬": [
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "开局单位",
+        "tech": "剑齿虎 & 猎犬",
+        "content": "玩家生命值修正  -200 → -300"
+      }
+    ],
+    "开局单位|||火獾 & 魔眼": [
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "开局单位",
+        "tech": "火獾 & 魔眼",
+        "content": "玩家生命值修正  0 → +200"
+      }
+    ],
+    "开局单位|||狼蛛 & 魔眼": [
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "开局单位",
+        "tech": "狼蛛 & 魔眼",
+        "content": "玩家生命值修正  0 → +200"
+      }
+    ],
+    "深渊|||残骸利用": [
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "深渊",
+        "tech": "残骸利用",
+        "content": "攻击力修正 +20% → +35%"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "深渊",
+        "tech": "残骸利用",
+        "content": "价格 300 → 200"
+      }
+    ],
+    "深渊|||裂解": [
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "深渊",
+        "tech": "裂解",
+        "content": "价格 400 → 350"
+      }
+    ],
+    "熔点|||电磁弹幕": [
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "熔点",
+        "tech": "电磁弹幕",
+        "content": "对护盾伤害 4000 → 6000"
+      }
+    ],
+    "猎犬|||枪膛增压": [
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "猎犬",
+        "tech": "枪膛增压",
+        "content": "攻击间隔 +0.6s，每秒攻击力修正 +35% → +60%"
+      },
+      {
+        "date": "2026-04-01",
+        "version": "1.10.0.2",
+        "update_type": "平衡调整",
+        "unit": "猎犬",
+        "tech": "枪膛增压",
+        "content": "每秒攻击力加成 60% → 70%"
+      },
+      {
+        "date": "2026-05-14",
+        "version": "1.10.2",
+        "update_type": "平衡调整",
+        "unit": "猎犬",
+        "tech": "枪膛增压",
+        "content": "攻击力每秒增加 70%→ 65%"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "猎犬",
+        "tech": "枪膛增压",
+        "content": "价格 200 → 300"
+      }
+    ],
+    "磁暴|||储能护盾": [
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "新单位科技",
+        "unit": "磁暴",
+        "tech": "储能护盾",
+        "content": "攻击时在内部储能。每攻击 13 次，在当前位置部署一个半径 40 米的能量护盾。护盾初始生命值为 4500，磁暴每提升 1 级，护盾生命值额外增加 4500。"
+      },
+      {
+        "date": "2026-03-19",
+        "version": "1.10.0.1",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "储能护盾",
+        "content": "每攻击 13 次生成一个护盾 → 每攻击 11 次生成一个护盾；护盾生命值 4500 → 5000"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "储能护盾",
+        "content": "效果调整为：攻击时在内部储能。每攻击 5 次，在当前位置部署一个半径 40 米的护盾，且增加下次部署护盾所需攻击次数 5。护盾基础生命值为 2000，磁暴每提升 1 级增加 2000。"
+      }
+    ],
+    "磁暴|||射程强化": [
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "新单位科技",
+        "unit": "磁暴",
+        "tech": "射程强化",
+        "content": "射程增加40。"
+      }
+    ],
+    "磁暴|||并网": [
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "新单位科技",
+        "unit": "磁暴",
+        "tech": "并网",
+        "content": "与 25 米内的其他磁暴产生链接。每多一个互相链接的单位，攻击力上升 15%。"
+      },
+      {
+        "date": "2026-03-19",
+        "version": "1.10.0.1",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "并网",
+        "content": "与 25 米内的其他磁暴产生链接。每多一个互相链接的单位，攻击力上升 15% → 与 25 米内的其他磁暴产生链接。每多一个互相链接的单位，攻击力上升 15%，最大上升 195%"
+      },
+      {
+        "date": "2026-04-01",
+        "version": "1.10.0.2",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "并网",
+        "content": "链接距离 25 → 35"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "并网",
+        "content": "每个链接单位增加的攻击力修正 +15% → +35%，最大攻击力修正 +195% → +105%"
+      }
+    ],
+    "磁暴|||应急装甲": [
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "新单位科技",
+        "unit": "磁暴",
+        "tech": "应急装甲",
+        "content": "生命值首次低于 50% 时，启动应急装甲，抵抗所有伤害且无法被敌人锁定，持续 4 秒。生命值为 0 时无法启动应急装甲。"
+      },
+      {
+        "date": "2026-04-01",
+        "version": "1.10.0.2",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "应急装甲",
+        "content": "价格 200 → 100"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "应急装甲",
+        "content": "价格 100 → 150"
+      }
+    ],
+    "磁暴|||电磁云": [
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "新单位科技",
+        "unit": "磁暴",
+        "tech": "电磁云",
+        "content": "攻击对目标和目标周围 10 米内的敌方单位形成电磁干扰。"
+      }
+    ],
+    "磁暴|||电磁双生": [
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "新单位科技",
+        "unit": "磁暴",
+        "tech": "电磁双生",
+        "content": "战斗开始时，在身后生成一个 1 级磁暴幻影。幻影的生命值为 1，且攻击力为普通磁暴的 30%。"
+      },
+      {
+        "date": "2026-03-19",
+        "version": "1.10.0.1",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "电磁双生",
+        "content": "价格 300 → 400"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "电磁双生",
+        "content": "价格 400 → 350"
+      }
+    ],
+    "磁暴|||移动电站": [
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "新单位科技",
+        "unit": "磁暴",
+        "tech": "移动电站",
+        "content": "射程增加 10，提升 100 米内地面友军单位 20% 的攻击力（效果不可叠加）。"
+      },
+      {
+        "date": "2026-03-19",
+        "version": "1.10.0.1",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "移动电站",
+        "content": "价格 300 → 250"
+      }
+    ],
+    "鬼鳐|||隐形": [
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "鬼鳐",
+        "tech": "隐形",
+        "content": "价格 200 → 100"
+      }
+    ],
+    "魔眼|||蓄能攻击": [
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "魔眼",
+        "tech": "蓄能攻击",
+        "content": "价格 150 → 100"
+      },
+      {
+        "date": "2026-04-09",
+        "version": "1.10.0.3",
+        "update_type": "平衡调整",
+        "unit": "魔眼",
+        "tech": "蓄能攻击",
+        "content": "攻击力修正 +175% → +120%"
+      }
+    ],
+    "磁暴|||战地维修": [
+      {
+        "date": "2026-03-19",
+        "version": "1.10.0.1",
+        "update_type": "新科技",
+        "unit": "磁暴",
+        "tech": "战地维修",
+        "content": "新增科技：生命值上升 30%，受伤后每秒自动恢复最大生命值的 4.5%"
+      },
+      {
+        "date": "2026-04-01",
+        "version": "1.10.0.2",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "战地维修",
+        "content": "价格 200 → 100"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "磁暴",
+        "tech": "战地维修",
+        "content": "价格 100 → 150"
+      }
+    ],
+    "单位改型|||改进型剑齿虎": [
+      {
+        "date": "2026-04-01",
+        "version": "1.10.0.2",
+        "update_type": "单位改型",
+        "unit": "单位改型",
+        "tech": "改进型剑齿虎",
+        "content": "攻击间隔修正 -0.6s → -0.9s"
+      }
+    ],
+    "沙虫|||机械分裂": [
+      {
+        "date": "2026-04-01",
+        "version": "1.10.0.2",
+        "update_type": "平衡调整",
+        "unit": "沙虫",
+        "tech": "机械分裂",
+        "content": "价格 150 → 200"
+      }
+    ],
+    "沙虫|||沙暴": [
+      {
+        "date": "2026-04-01",
+        "version": "1.10.0.2",
+        "update_type": "平衡调整",
+        "unit": "沙虫",
+        "tech": "沙暴",
+        "content": "持续时间 5s → 7s"
+      }
+    ],
+    "沙虫|||突袭": [
+      {
+        "date": "2026-04-01",
+        "version": "1.10.0.2",
+        "update_type": "平衡调整",
+        "unit": "沙虫",
+        "tech": "突袭",
+        "content": "价格 200 → 150"
+      }
+    ],
+    "猎犬|||燃烧弹": [
+      {
+        "date": "2026-04-01",
+        "version": "1.10.0.2",
+        "update_type": "平衡调整",
+        "unit": "猎犬",
+        "tech": "燃烧弹",
+        "content": "火焰持续时间 12s → 10s"
+      },
+      {
+        "date": "2026-04-20",
+        "version": "1.10.1",
+        "update_type": "平衡调整",
+        "unit": "猎犬",
+        "tech": "燃烧弹",
+        "content": "价格 200 → 250"
+      }
+    ],
+    "铁锤|||机械狂暴": [
+      {
+        "date": "2026-04-01",
+        "version": "1.10.0.2",
+        "update_type": "平衡调整",
+        "unit": "铁锤",
+        "tech": "机械狂暴",
+        "content": "价格 300 → 250"
+      }
+    ],
+    "鬼鳐|||对地锁定": [
+      {
+        "date": "2026-04-01",
+        "version": "1.10.0.2",
+        "update_type": "平衡调整",
+        "unit": "鬼鳐",
+        "tech": "对地锁定",
+        "content": "价格 200 → 150"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "鬼鳐",
+        "tech": "对地锁定",
+        "content": "攻击力不再降低，价格 150 → 200"
+      }
+    ],
+    "鬼鳐|||高爆弹药": [
+      {
+        "date": "2026-04-01",
+        "version": "1.10.0.2",
+        "update_type": "平衡调整",
+        "unit": "鬼鳐",
+        "tech": "高爆弹药",
+        "content": "价格 200 → 150"
+      }
+    ],
+    "先知|||搜索雷达": [
+      {
+        "date": "2026-04-09",
+        "version": "1.10.0.3",
+        "update_type": "平衡调整",
+        "unit": "先知",
+        "tech": "搜索雷达",
+        "content": "价格 300 → 200"
+      }
+    ],
+    "单位改型|||突击雷霆": [
+      {
+        "date": "2026-04-09",
+        "version": "1.10.0.3",
+        "update_type": "单位改型",
+        "unit": "单位改型",
+        "tech": "突击雷霆",
+        "content": "生命值修正 +200% → +80%，射程修正 -50 → -20"
+      }
+    ],
+    "狼蛛|||蜘蛛雷": [
+      {
+        "date": "2026-04-09",
+        "version": "1.10.0.3",
+        "update_type": "平衡调整",
+        "unit": "狼蛛",
+        "tech": "蜘蛛雷",
+        "content": "爆炸伤害 4500 → 1000，爆炸范围 9 米 → 12 米，生命值 750 → 500，价格 300 → 200"
+      },
+      {
+        "date": "2026-04-20",
+        "version": "1.10.1",
+        "update_type": "平衡调整",
+        "unit": "狼蛛",
+        "tech": "蜘蛛雷",
+        "content": "移动速度 21 → 24，生命值 500 → 750"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "狼蛛",
+        "tech": "蜘蛛雷",
+        "content": "爆炸伤害 1000 → 2500"
+      }
+    ],
+    "雷霆|||能量护盾": [
+      {
+        "date": "2026-04-09",
+        "version": "1.10.0.3",
+        "update_type": "新科技",
+        "unit": "雷霆",
+        "tech": "能量护盾",
+        "content": "新增科技：获得一个能量护盾，护盾值等于自身生命值，并且可以至少抵挡一次伤害。"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "雷霆",
+        "tech": "能量护盾",
+        "content": "价格 300 → 200"
+      }
+    ],
+    "泰山|||炮射火箭": [
+      {
+        "date": "2026-04-23",
+        "version": "1.10.1.1",
+        "update_type": "平衡调整",
+        "unit": "泰山",
+        "tech": "炮射火箭",
+        "content": "火箭弹的溅射范围 25 → 15"
+      }
+    ],
+    "先知|||光子投射": [
+      {
+        "date": "2026-05-14",
+        "version": "1.10.2",
+        "update_type": "平衡调整",
+        "unit": "先知",
+        "tech": "光子投射",
+        "content": "启动所需时间 1.1s → 0.6s"
+      }
+    ],
+    "战场技能|||光子投射": [
+      {
+        "date": "2026-05-14",
+        "version": "1.10.2",
+        "update_type": "平衡调整",
+        "unit": "战场技能",
+        "tech": "光子投射",
+        "content": "启动所需时间 1.8s → 0.6s"
+      }
+    ],
+    "狂蝎|||酸性攻击": [
+      {
+        "date": "2026-05-14",
+        "version": "1.10.2",
+        "update_type": "平衡调整",
+        "unit": "狂蝎",
+        "tech": "酸性攻击",
+        "content": "价格 300 → 250 ，持续时间 15s → 18s"
+      }
+    ],
+    "霸主|||光子投射": [
+      {
+        "date": "2026-05-14",
+        "version": "1.10.2",
+        "update_type": "平衡调整",
+        "unit": "霸主",
+        "tech": "光子投射",
+        "content": "启动所需时间 1.1s → 0.6s"
+      }
+    ],
+    "魔眼|||电磁装甲": [
+      {
+        "date": "2026-05-14",
+        "version": "1.10.2",
+        "update_type": "平衡调整",
+        "unit": "魔眼",
+        "tech": "电磁装甲",
+        "content": "电磁效果持续时间 4s → 3.5s"
+      },
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "魔眼",
+        "tech": "电磁装甲",
+        "content": "持续时间 3.5s → 3s"
+      }
+    ],
+    "先知|||全弹发射": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "先知",
+        "tech": "全弹发射",
+        "content": "价格 200 → 150"
+      }
+    ],
+    "剑齿虎|||导弹拦截": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "剑齿虎",
+        "tech": "导弹拦截",
+        "content": "价格 150 → 100"
+      }
+    ],
+    "剑齿虎|||战地维修": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "剑齿虎",
+        "tech": "战地维修",
+        "content": "价格 300 → 200"
+      }
+    ],
+    "台风|||反应装甲": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "单位重制",
+        "unit": "台风",
+        "tech": "反应装甲",
+        "content": "受到攻击时可以抵挡 80%的伤害，最多 5 次。"
+      }
+    ],
+    "台风|||射程强化": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "单位重制",
+        "unit": "台风",
+        "tech": "射程强化",
+        "content": "射程增加 40"
+      }
+    ],
+    "台风|||战地重组": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "单位重制",
+        "unit": "台风",
+        "tech": "战地重组",
+        "content": "台风被击毁后会进入重组修复状态，在 5 秒后以 100% 生命值重新回到战场，每回合限 1 次。"
+      }
+    ],
+    "台风|||残骸引爆": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "单位重制",
+        "unit": "台风",
+        "tech": "残骸引爆",
+        "content": "被台风击毁的单位会发生剧烈爆炸，对其周围 15 米内的所有单位造成 125 点伤害。"
+      }
+    ],
+    "台风|||维修阵列": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "单位重制",
+        "unit": "台风",
+        "tech": "维修阵列",
+        "content": "每 3 秒一次，为台风自身及其周围 100 米内的友方单位恢复 500 点生命值。恢复量随台风等级提升，每级增加 500 点。"
+      }
+    ],
+    "台风|||野战工事": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "单位重制",
+        "unit": "台风",
+        "tech": "野战工事",
+        "content": "战斗开始时原地部署堑壕。驻扎期间无法移动，生命值上升 70%，射程上升 20。若射程内连续 7 秒没有敌人，台风将离开并摧毁堑壕。"
+      }
+    ],
+    "台风|||防空标记": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "单位重制",
+        "unit": "台风",
+        "tech": "防空标记",
+        "content": "每 10 秒发射一枚射程 160 米的标记弹，对目标周围 100 米范围内的敌方空军施加标记。被标记的单位射程减少 20，并在受到攻击时额外承受 30% 的伤害，持续 10 秒。"
+      }
+    ],
+    "尖牙|||机械狂暴": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "尖牙",
+        "tech": "机械狂暴",
+        "content": "价格 300 → 250"
+      }
+    ],
+    "开局单位|||弧光 & 钢球": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "开局单位",
+        "tech": "弧光 & 钢球",
+        "content": "玩家生命值修正 +200 → +300"
+      }
+    ],
+    "开局单位|||爬虫 & 钢球": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "开局单位",
+        "tech": "爬虫 & 钢球",
+        "content": "玩家生命值修正 +100 → +200"
+      }
+    ],
+    "战场技能|||巨型电磁冲击": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "战场技能",
+        "tech": "巨型电磁冲击",
+        "content": "对护盾伤害由 35000 → 20000"
+      }
+    ],
+    "战场技能|||烟雾弹": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "战场技能",
+        "tech": "烟雾弹",
+        "content": "持续时间 2 回合 → 1 回合"
+      }
+    ],
+    "战场技能|||电磁冲击": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "战场技能",
+        "tech": "电磁冲击",
+        "content": "对护盾伤害由 35000 → 20000"
+      }
+    ],
+    "战场技能|||酸液弹": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "战场技能",
+        "tech": "酸液弹",
+        "content": "持续时间 2 回合 → 1 回合，价格 200 → 100"
+      }
+    ],
+    "火神|||最佳搭档": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "火神",
+        "tech": "最佳搭档",
+        "content": "价格 250 → 300"
+      }
+    ],
+    "爬虫|||机械狂暴": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "爬虫",
+        "tech": "机械狂暴",
+        "content": "价格 150 → 100"
+      }
+    ],
+    "爬虫|||酸性爆炸": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "爬虫",
+        "tech": "酸性爆炸",
+        "content": "价格 150 → 100"
+      }
+    ],
+    "犀牛|||战斗进化": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "犀牛",
+        "tech": "战斗进化",
+        "content": "价格 200 → 150"
+      }
+    ],
+    "犀牛|||旋风斩": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "犀牛",
+        "tech": "旋风斩",
+        "content": "攻击力修正 x1.5 倍→ x1.4 倍，溅射范围 32 → 35，价格 250 → 150。"
+      }
+    ],
+    "犀牛|||机械狂暴": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "犀牛",
+        "tech": "机械狂暴",
+        "content": "价格 150 → 100"
+      }
+    ],
+    "犀牛|||残骸利用": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "犀牛",
+        "tech": "残骸利用",
+        "content": "攻击力修正 +20% → +60%"
+      }
+    ],
+    "狂蝎|||收束射击": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "新科技",
+        "unit": "狂蝎",
+        "tech": "收束射击",
+        "content": "新增科技：攻击距离上升 20 米，攻击间隔减少 1 秒，但是溅射范围减少 8 米"
+      }
+    ],
+    "狼蛛|||装甲强化": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "狼蛛",
+        "tech": "装甲强化",
+        "content": "价格 200 → 100"
+      }
+    ],
+    "长弓|||快速弹夹": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "长弓",
+        "tech": "快速弹夹",
+        "content": "价格 250 → 150，伤害修正 -50% → -60%"
+      }
+    ],
+    "长弓|||突击模式": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "长弓",
+        "tech": "突击模式",
+        "content": "攻击力修正 +50%→ +60%"
+      }
+    ]
+  },
+  "equipment_changes": {
+    "光子涂层": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "装备",
+        "tech": "光子涂层",
+        "content": "持续时间 25s → 30s"
+      }
+    ],
+    "坦克生产线": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "装备",
+        "tech": "坦克生产线",
+        "content": "现在最多可生产7次"
+      }
+    ],
+    "野马生产线": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "装备",
+        "tech": "野马生产线",
+        "content": "现在最多可生产8次"
+      }
+    ],
+    "钢球生产线": [
+      {
+        "date": "2026-01-16",
+        "version": "1.9.0.4",
+        "update_type": "平衡调整",
+        "unit": "装备",
+        "tech": "钢球生产线",
+        "content": "现在最多可生产6次"
+      }
+    ],
+    "强化模块": [
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "平衡调整",
+        "unit": "装备",
+        "tech": "强化模块",
+        "content": "攻击力上升 25%，生命值上升 25%，并且升级消耗的补给减少 100"
+      }
+    ],
+    "统御核心": [
+      {
+        "date": "2026-02-05",
+        "version": "1.9.1",
+        "update_type": "平衡调整",
+        "unit": "装备",
+        "tech": "统御核心",
+        "content": "现在会在全部游戏模式中出现"
+      }
+    ]
+  },
+  "battle_skill_changes": {
+    "光子投射": [
+      {
+        "date": "2026-05-14",
+        "version": "1.10.2",
+        "update_type": "平衡调整",
+        "unit": "战场技能",
+        "tech": "光子投射",
+        "content": "启动所需时间 1.8s → 0.6s"
+      }
+    ],
+    "巨型电磁冲击": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "战场技能",
+        "tech": "巨型电磁冲击",
+        "content": "对护盾伤害由 35000 → 20000"
+      }
+    ],
+    "烟雾弹": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "战场技能",
+        "tech": "烟雾弹",
+        "content": "持续时间 2 回合 → 1 回合"
+      }
+    ],
+    "电磁冲击": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "战场技能",
+        "tech": "电磁冲击",
+        "content": "对护盾伤害由 35000 → 20000"
+      }
+    ],
+    "酸液弹": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "战场技能",
+        "tech": "酸液弹",
+        "content": "持续时间 2 回合 → 1 回合，价格 200 → 100"
+      }
+    ]
+  },
+  "unit_variant_changes": {
+    "改进型剑齿虎": [
+      {
+        "date": "2026-04-01",
+        "version": "1.10.0.2",
+        "update_type": "单位改型",
+        "unit": "单位改型",
+        "tech": "改进型剑齿虎",
+        "content": "攻击间隔修正 -0.6s → -0.9s"
+      }
+    ],
+    "突击雷霆": [
+      {
+        "date": "2026-04-09",
+        "version": "1.10.0.3",
+        "update_type": "单位改型",
+        "unit": "单位改型",
+        "tech": "突击雷霆",
+        "content": "生命值修正 +200% → +80%，射程修正 -50 → -20"
+      }
+    ]
+  },
+  "reinforcement_changes": {},
+  "starting_unit_changes": {
+    "剑齿虎 & 猎犬": [
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "开局单位",
+        "tech": "剑齿虎 & 猎犬",
+        "content": "玩家生命值修正  -200 → -300"
+      }
+    ],
+    "火獾 & 魔眼": [
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "开局单位",
+        "tech": "火獾 & 魔眼",
+        "content": "玩家生命值修正  0 → +200"
+      }
+    ],
+    "狼蛛 & 魔眼": [
+      {
+        "date": "2026-03-12",
+        "version": "1.10",
+        "update_type": "平衡调整",
+        "unit": "开局单位",
+        "tech": "狼蛛 & 魔眼",
+        "content": "玩家生命值修正  0 → +200"
+      }
+    ],
+    "弧光 & 钢球": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "开局单位",
+        "tech": "弧光 & 钢球",
+        "content": "玩家生命值修正 +200 → +300"
+      }
+    ],
+    "爬虫 & 钢球": [
+      {
+        "date": "2026-06-09",
+        "version": "1.11",
+        "update_type": "平衡调整",
+        "unit": "开局单位",
+        "tech": "爬虫 & 钢球",
+        "content": "玩家生命值修正 +100 → +200"
+      }
+    ]
+  },
+  "category_changes": {
+    "先知": {
+      "导弹拦截": [
+        {
+          "date": "2026-01-16",
+          "version": "1.9.0.4",
+          "update_type": "平衡调整",
+          "unit": "先知",
+          "tech": "导弹拦截",
+          "content": "拦截效率增加40%"
+        }
+      ],
+      "搜索雷达": [
+        {
+          "date": "2026-04-09",
+          "version": "1.10.0.3",
+          "update_type": "平衡调整",
+          "unit": "先知",
+          "tech": "搜索雷达",
+          "content": "价格 300 → 200"
+        }
+      ],
+      "光子投射": [
+        {
+          "date": "2026-05-14",
+          "version": "1.10.2",
+          "update_type": "平衡调整",
+          "unit": "先知",
+          "tech": "光子投射",
+          "content": "启动所需时间 1.1s → 0.6s"
+        }
+      ],
+      "全弹发射": [
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "先知",
+          "tech": "全弹发射",
+          "content": "价格 200 → 150"
+        }
+      ]
+    },
+    "尖牙": {
+      "榴弹发射器": [
+        {
+          "date": "2026-01-16",
+          "version": "1.9.0.4",
+          "update_type": "平衡调整",
+          "unit": "尖牙",
+          "tech": "榴弹发射器",
+          "content": "射程修正 0 → +5"
+        },
+        {
+          "date": "2026-02-05",
+          "version": "1.9.1",
+          "update_type": "平衡调整",
+          "unit": "尖牙",
+          "tech": "榴弹发射器",
+          "content": "射程 +5 → +15"
+        },
+        {
+          "date": "2026-03-12",
+          "version": "1.10",
+          "update_type": "平衡调整",
+          "unit": "尖牙",
+          "tech": "榴弹发射器",
+          "content": "射程修正 +15 → +10"
+        }
+      ],
+      "机械狂暴": [
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "尖牙",
+          "tech": "机械狂暴",
+          "content": "价格 300 → 250"
+        }
+      ]
+    },
+    "弧光": {
+      "震荡波": [
+        {
+          "date": "2026-01-16",
+          "version": "1.9.0.4",
+          "update_type": "平衡调整",
+          "unit": "弧光",
+          "tech": "震荡波",
+          "content": "射程修正 -20 → -5"
+        },
+        {
+          "date": "2026-04-23",
+          "version": "1.10.1.1",
+          "update_type": "平衡调整",
+          "unit": "弧光",
+          "tech": "震荡波",
+          "content": "价格 200 → 250"
+        },
+        {
+          "date": "2026-05-14",
+          "version": "1.10.2",
+          "update_type": "平衡调整",
+          "unit": "弧光",
+          "tech": "震荡波",
+          "content": "范围伤害 82 → 75"
+        }
+      ],
+      "蓄能攻击": [
+        {
+          "date": "2026-02-05",
+          "version": "1.9.1",
+          "update_type": "平衡调整",
+          "unit": "弧光",
+          "tech": "蓄能攻击",
+          "content": "价格 250 → 200"
+        },
+        {
+          "date": "2026-04-23",
+          "version": "1.10.1.1",
+          "update_type": "平衡调整",
+          "unit": "弧光",
+          "tech": "蓄能攻击",
+          "content": "价格 200 → 150"
+        }
+      ]
+    },
+    "战争工厂": {
+      "光子涂层": [
+        {
+          "date": "2026-01-16",
+          "version": "1.9.0.4",
+          "update_type": "平衡调整",
+          "unit": "战争工厂",
+          "tech": "光子涂层",
+          "content": "持续时间 25s → 30s"
+        }
+      ]
+    },
+    "泰山": {
+      "光子循环": [
+        {
+          "date": "2026-01-16",
+          "version": "1.9.0.4",
+          "update_type": "平衡调整",
+          "unit": "泰山",
+          "tech": "光子循环",
+          "content": "持续时间 15s → 20s"
+        },
+        {
+          "date": "2026-02-05",
+          "version": "1.9.1",
+          "update_type": "平衡调整",
+          "unit": "泰山",
+          "tech": "光子循环",
+          "content": "持续时间 20s → 25s"
+        }
+      ],
+      "烟雾弹": [
+        {
+          "date": "2026-01-16",
+          "version": "1.9.0.4",
+          "update_type": "平衡调整",
+          "unit": "泰山",
+          "tech": "烟雾弹",
+          "content": "价格 350 → 250"
+        },
+        {
+          "date": "2026-02-05",
+          "version": "1.9.1",
+          "update_type": "平衡调整",
+          "unit": "泰山",
+          "tech": "烟雾弹",
+          "content": "发射间隔 40s → 25s"
+        },
+        {
+          "date": "2026-04-23",
+          "version": "1.10.1.1",
+          "update_type": "平衡调整",
+          "unit": "泰山",
+          "tech": "烟雾弹",
+          "content": "价格 250 → 350，发射的烟雾弹数量 10 → 8"
+        }
+      ],
+      "炮射火箭": [
+        {
+          "date": "2026-04-23",
+          "version": "1.10.1.1",
+          "update_type": "平衡调整",
+          "unit": "泰山",
+          "tech": "炮射火箭",
+          "content": "火箭弹的溅射范围 25 → 15"
+        }
+      ]
+    },
+    "深渊": {
+      "光子涂层": [
+        {
+          "date": "2026-01-16",
+          "version": "1.9.0.4",
+          "update_type": "平衡调整",
+          "unit": "深渊",
+          "tech": "光子涂层",
+          "content": "持续时间 25s → 30s"
+        }
+      ],
+      "残骸利用": [
+        {
+          "date": "2026-03-12",
+          "version": "1.10",
+          "update_type": "平衡调整",
+          "unit": "深渊",
+          "tech": "残骸利用",
+          "content": "攻击力修正 +20% → +35%"
+        },
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "深渊",
+          "tech": "残骸利用",
+          "content": "价格 300 → 200"
+        }
+      ],
+      "裂解": [
+        {
+          "date": "2026-03-12",
+          "version": "1.10",
+          "update_type": "平衡调整",
+          "unit": "深渊",
+          "tech": "裂解",
+          "content": "价格 400 → 350"
+        }
+      ]
+    },
+    "火神": {
+      "黏油弹": [
+        {
+          "date": "2026-01-16",
+          "version": "1.9.0.4",
+          "update_type": "平衡调整",
+          "unit": "火神",
+          "tech": "黏油弹",
+          "content": "价格 250 → 200"
+        }
+      ],
+      "最佳搭档": [
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "火神",
+          "tech": "最佳搭档",
+          "content": "价格 250 → 300"
+        }
+      ]
+    },
+    "犀牛": {
+      "光子涂层": [
+        {
+          "date": "2026-01-16",
+          "version": "1.9.0.4",
+          "update_type": "平衡调整",
+          "unit": "犀牛",
+          "tech": "光子涂层",
+          "content": "持续时间 25s → 30s"
+        }
+      ],
+      "战斗进化": [
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "犀牛",
+          "tech": "战斗进化",
+          "content": "价格 200 → 150"
+        }
+      ],
+      "旋风斩": [
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "犀牛",
+          "tech": "旋风斩",
+          "content": "攻击力修正 x1.5 倍→ x1.4 倍，溅射范围 32 → 35，价格 250 → 150。"
+        }
+      ],
+      "机械狂暴": [
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "犀牛",
+          "tech": "机械狂暴",
+          "content": "价格 150 → 100"
+        }
+      ],
+      "残骸利用": [
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "犀牛",
+          "tech": "残骸利用",
+          "content": "攻击力修正 +20% → +60%"
+        }
+      ]
+    },
+    "狼蛛": {
+      "战地维修": [
+        {
+          "date": "2026-01-16",
+          "version": "1.9.0.4",
+          "update_type": "平衡调整",
+          "unit": "狼蛛",
+          "tech": "战地维修",
+          "content": "价格 200 → 150"
+        }
+      ],
+      "蜘蛛雷": [
+        {
+          "date": "2026-04-09",
+          "version": "1.10.0.3",
+          "update_type": "平衡调整",
+          "unit": "狼蛛",
+          "tech": "蜘蛛雷",
+          "content": "爆炸伤害 4500 → 1000，爆炸范围 9 米 → 12 米，生命值 750 → 500，价格 300 → 200"
+        },
+        {
+          "date": "2026-04-20",
+          "version": "1.10.1",
+          "update_type": "平衡调整",
+          "unit": "狼蛛",
+          "tech": "蜘蛛雷",
+          "content": "移动速度 21 → 24，生命值 500 → 750"
+        },
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "狼蛛",
+          "tech": "蜘蛛雷",
+          "content": "爆炸伤害 1000 → 2500"
+        }
+      ],
+      "装甲强化": [
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "狼蛛",
+          "tech": "装甲强化",
+          "content": "价格 200 → 100"
+        }
+      ]
+    },
+    "装备": {
+      "光子涂层": [
+        {
+          "date": "2026-01-16",
+          "version": "1.9.0.4",
+          "update_type": "平衡调整",
+          "unit": "装备",
+          "tech": "光子涂层",
+          "content": "持续时间 25s → 30s"
+        }
+      ],
+      "坦克生产线": [
+        {
+          "date": "2026-01-16",
+          "version": "1.9.0.4",
+          "update_type": "平衡调整",
+          "unit": "装备",
+          "tech": "坦克生产线",
+          "content": "现在最多可生产7次"
+        }
+      ],
+      "野马生产线": [
+        {
+          "date": "2026-01-16",
+          "version": "1.9.0.4",
+          "update_type": "平衡调整",
+          "unit": "装备",
+          "tech": "野马生产线",
+          "content": "现在最多可生产8次"
+        }
+      ],
+      "钢球生产线": [
+        {
+          "date": "2026-01-16",
+          "version": "1.9.0.4",
+          "update_type": "平衡调整",
+          "unit": "装备",
+          "tech": "钢球生产线",
+          "content": "现在最多可生产6次"
+        }
+      ],
+      "强化模块": [
+        {
+          "date": "2026-02-05",
+          "version": "1.9.1",
+          "update_type": "平衡调整",
+          "unit": "装备",
+          "tech": "强化模块",
+          "content": "攻击力上升 25%，生命值上升 25%，并且升级消耗的补给减少 100"
+        }
+      ],
+      "统御核心": [
+        {
+          "date": "2026-02-05",
+          "version": "1.9.1",
+          "update_type": "平衡调整",
+          "unit": "装备",
+          "tech": "统御核心",
+          "content": "现在会在全部游戏模式中出现"
+        }
+      ]
+    },
+    "钢球": {
+      "滚动充能": [
+        {
+          "date": "2026-01-16",
+          "version": "1.9.0.4",
+          "update_type": "平衡调整",
+          "unit": "钢球",
+          "tech": "滚动充能",
+          "content": "每移动9米，射程增加1米 → 每移动7米，射程增加1米，最大增加100米射程"
+        }
+      ]
+    },
+    "铁锤": {
+      "电磁弹": [
+        {
+          "date": "2026-01-16",
+          "version": "1.9.0.4",
+          "update_type": "平衡调整",
+          "unit": "铁锤",
+          "tech": "电磁弹",
+          "content": "价格 400 → 350"
+        }
+      ],
+      "穿甲弹": [
+        {
+          "date": "2026-01-16",
+          "version": "1.9.0.4",
+          "update_type": "平衡调整",
+          "unit": "铁锤",
+          "tech": "穿甲弹",
+          "content": "攻击力修正 +225% → +250%"
+        },
+        {
+          "date": "2026-03-12",
+          "version": "1.10",
+          "update_type": "平衡调整",
+          "unit": "铁锤",
+          "tech": "穿甲弹",
+          "content": "攻速修正 -40% → -30%"
+        },
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "铁锤",
+          "tech": "穿甲弹",
+          "content": "价格 200 → 150"
+        }
+      ],
+      "机械狂暴": [
+        {
+          "date": "2026-04-01",
+          "version": "1.10.0.2",
+          "update_type": "平衡调整",
+          "unit": "铁锤",
+          "tech": "机械狂暴",
+          "content": "价格 300 → 250"
+        }
+      ]
+    },
+    "霸主": {
+      "战地维修": [
+        {
+          "date": "2026-01-16",
+          "version": "1.9.0.4",
+          "update_type": "平衡调整",
+          "unit": "霸主",
+          "tech": "战地维修",
+          "content": "价格 200 → 150"
+        }
+      ],
+      "光子投射": [
+        {
+          "date": "2026-05-14",
+          "version": "1.10.2",
+          "update_type": "平衡调整",
+          "unit": "霸主",
+          "tech": "光子投射",
+          "content": "启动所需时间 1.1s → 0.6s"
+        }
+      ]
+    },
+    "剑齿虎": {
+      "野战工事": [
+        {
+          "date": "2026-02-05",
+          "version": "1.9.1",
+          "update_type": "新科技",
+          "unit": "剑齿虎",
+          "tech": "野战工事",
+          "content": "战斗开始时原地部署堑壕。驻扎期间无法移动，生命值上升 50%，攻击间隔下降 20%，射程上升 20。若射程内连续 7 秒没有敌人，剑齿虎将离开并摧毁堑壕。"
+        }
+      ],
+      "导弹拦截": [
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "剑齿虎",
+          "tech": "导弹拦截",
+          "content": "价格 150 → 100"
+        }
+      ],
+      "战地维修": [
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "剑齿虎",
+          "tech": "战地维修",
+          "content": "价格 300 → 200"
+        }
+      ]
+    },
+    "恶灵": {
+      "地面巡航": [
+        {
+          "date": "2026-02-05",
+          "version": "1.9.1",
+          "update_type": "平衡调整",
+          "unit": "恶灵",
+          "tech": "地面巡航",
+          "content": "攻击间隔 +0.5s → 0.6s"
+        }
+      ]
+    },
+    "爬虫": {
+      "松散队列": [
+        {
+          "date": "2026-02-05",
+          "version": "1.9.1",
+          "update_type": "平衡调整",
+          "unit": "爬虫",
+          "tech": "松散队列",
+          "content": "价格 400 → 350"
+        },
+        {
+          "date": "2026-02-27",
+          "version": "1.9.1.3",
+          "update_type": "平衡调整",
+          "unit": "爬虫",
+          "tech": "松散队列",
+          "content": "价格 350 → 250"
+        }
+      ],
+      "潜地行动": [
+        {
+          "date": "2026-02-05",
+          "version": "1.9.1",
+          "update_type": "平衡调整",
+          "unit": "爬虫",
+          "tech": "潜地行动",
+          "content": "价格 300 → 350"
+        },
+        {
+          "date": "2026-02-27",
+          "version": "1.9.1.3",
+          "update_type": "平衡调整",
+          "unit": "爬虫",
+          "tech": "潜地行动",
+          "content": "减免伤害 55% → 50%"
+        },
+        {
+          "date": "2026-03-12",
+          "version": "1.10",
+          "update_type": "平衡调整",
+          "unit": "爬虫",
+          "tech": "潜地行动",
+          "content": "伤害减免 50%  → 45%"
+        }
+      ],
+      "机械狂暴": [
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "爬虫",
+          "tech": "机械狂暴",
+          "content": "价格 150 → 100"
+        }
+      ],
+      "酸性爆炸": [
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "爬虫",
+          "tech": "酸性爆炸",
+          "content": "价格 150 → 100"
+        }
+      ]
+    },
+    "野马": {
+      "斩杀弹": [
+        {
+          "date": "2026-02-05",
+          "version": "1.9.1",
+          "update_type": "新科技",
+          "unit": "野马",
+          "tech": "斩杀弹",
+          "content": "攻击直接摧毁当前生命值低于 300（每升一级 +100）的目标。攻击力下降 50%。"
+        },
+        {
+          "date": "2026-02-10",
+          "version": "1.9.1.2",
+          "update_type": "平衡调整",
+          "unit": "野马",
+          "tech": "斩杀弹",
+          "content": "每级斩杀门槛增加 +100 → +150"
+        },
+        {
+          "date": "2026-02-27",
+          "version": "1.9.1.3",
+          "update_type": "平衡调整",
+          "unit": "野马",
+          "tech": "斩杀弹",
+          "content": "每级斩杀门槛增加 +150 → +200"
+        },
+        {
+          "date": "2026-03-12",
+          "version": "1.10",
+          "update_type": "平衡调整",
+          "unit": "野马",
+          "tech": "斩杀弹",
+          "content": "斩杀门槛 300 → 320"
+        },
+        {
+          "date": "2026-04-01",
+          "version": "1.10.0.2",
+          "update_type": "平衡调整",
+          "unit": "野马",
+          "tech": "斩杀弹",
+          "content": "攻击力修正 -50% → -35%"
+        },
+        {
+          "date": "2026-04-09",
+          "version": "1.10.0.3",
+          "update_type": "平衡调整",
+          "unit": "野马",
+          "tech": "斩杀弹",
+          "content": "价格 200 → 100"
+        },
+        {
+          "date": "2026-04-23",
+          "version": "1.10.1.1",
+          "update_type": "平衡调整",
+          "unit": "野马",
+          "tech": "斩杀弹",
+          "content": "价格 100 → 150"
+        },
+        {
+          "date": "2026-05-14",
+          "version": "1.10.2",
+          "update_type": "平衡调整",
+          "unit": "野马",
+          "tech": "斩杀弹",
+          "content": "价格 150 → 200"
+        }
+      ]
+    },
+    "鬼鳐": {
+      "对地增程": [
+        {
+          "date": "2026-02-05",
+          "version": "1.9.1",
+          "update_type": "平衡调整",
+          "unit": "鬼鳐",
+          "tech": "对地增程",
+          "content": "攻击力下降 40% → 20%，价格 100 → 200"
+        }
+      ],
+      "隐形": [
+        {
+          "date": "2026-03-12",
+          "version": "1.10",
+          "update_type": "平衡调整",
+          "unit": "鬼鳐",
+          "tech": "隐形",
+          "content": "价格 200 → 100"
+        }
+      ],
+      "对地锁定": [
+        {
+          "date": "2026-04-01",
+          "version": "1.10.0.2",
+          "update_type": "平衡调整",
+          "unit": "鬼鳐",
+          "tech": "对地锁定",
+          "content": "价格 200 → 150"
+        },
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "鬼鳐",
+          "tech": "对地锁定",
+          "content": "攻击力不再降低，价格 150 → 200"
+        }
+      ],
+      "高爆弹药": [
+        {
+          "date": "2026-04-01",
+          "version": "1.10.0.2",
+          "update_type": "平衡调整",
+          "unit": "鬼鳐",
+          "tech": "高爆弹药",
+          "content": "价格 200 → 150"
+        }
+      ]
+    },
+    "狂蝎": {
+      "双发": [
+        {
+          "date": "2026-02-27",
+          "version": "1.9.1.3",
+          "update_type": "平衡调整",
+          "unit": "狂蝎",
+          "tech": "双发",
+          "content": "价格 200 → 100"
+        }
+      ],
+      "酸性攻击": [
+        {
+          "date": "2026-05-14",
+          "version": "1.10.2",
+          "update_type": "平衡调整",
+          "unit": "狂蝎",
+          "tech": "酸性攻击",
+          "content": "价格 300 → 250 ，持续时间 15s → 18s"
+        }
+      ],
+      "收束射击": [
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "新科技",
+          "unit": "狂蝎",
+          "tech": "收束射击",
+          "content": "新增科技：攻击距离上升 20 米，攻击间隔减少 1 秒，但是溅射范围减少 8 米"
+        }
+      ]
+    },
+    "开局单位": {
+      "剑齿虎 & 猎犬": [
+        {
+          "date": "2026-03-12",
+          "version": "1.10",
+          "update_type": "平衡调整",
+          "unit": "开局单位",
+          "tech": "剑齿虎 & 猎犬",
+          "content": "玩家生命值修正  -200 → -300"
+        }
+      ],
+      "火獾 & 魔眼": [
+        {
+          "date": "2026-03-12",
+          "version": "1.10",
+          "update_type": "平衡调整",
+          "unit": "开局单位",
+          "tech": "火獾 & 魔眼",
+          "content": "玩家生命值修正  0 → +200"
+        }
+      ],
+      "狼蛛 & 魔眼": [
+        {
+          "date": "2026-03-12",
+          "version": "1.10",
+          "update_type": "平衡调整",
+          "unit": "开局单位",
+          "tech": "狼蛛 & 魔眼",
+          "content": "玩家生命值修正  0 → +200"
+        }
+      ],
+      "弧光 & 钢球": [
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "开局单位",
+          "tech": "弧光 & 钢球",
+          "content": "玩家生命值修正 +200 → +300"
+        }
+      ],
+      "爬虫 & 钢球": [
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "开局单位",
+          "tech": "爬虫 & 钢球",
+          "content": "玩家生命值修正 +100 → +200"
+        }
+      ]
+    },
+    "熔点": {
+      "电磁弹幕": [
+        {
+          "date": "2026-03-12",
+          "version": "1.10",
+          "update_type": "平衡调整",
+          "unit": "熔点",
+          "tech": "电磁弹幕",
+          "content": "对护盾伤害 4000 → 6000"
+        }
+      ]
+    },
+    "猎犬": {
+      "枪膛增压": [
+        {
+          "date": "2026-03-12",
+          "version": "1.10",
+          "update_type": "平衡调整",
+          "unit": "猎犬",
+          "tech": "枪膛增压",
+          "content": "攻击间隔 +0.6s，每秒攻击力修正 +35% → +60%"
+        },
+        {
+          "date": "2026-04-01",
+          "version": "1.10.0.2",
+          "update_type": "平衡调整",
+          "unit": "猎犬",
+          "tech": "枪膛增压",
+          "content": "每秒攻击力加成 60% → 70%"
+        },
+        {
+          "date": "2026-05-14",
+          "version": "1.10.2",
+          "update_type": "平衡调整",
+          "unit": "猎犬",
+          "tech": "枪膛增压",
+          "content": "攻击力每秒增加 70%→ 65%"
+        },
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "猎犬",
+          "tech": "枪膛增压",
+          "content": "价格 200 → 300"
+        }
+      ],
+      "燃烧弹": [
+        {
+          "date": "2026-04-01",
+          "version": "1.10.0.2",
+          "update_type": "平衡调整",
+          "unit": "猎犬",
+          "tech": "燃烧弹",
+          "content": "火焰持续时间 12s → 10s"
+        },
+        {
+          "date": "2026-04-20",
+          "version": "1.10.1",
+          "update_type": "平衡调整",
+          "unit": "猎犬",
+          "tech": "燃烧弹",
+          "content": "价格 200 → 250"
+        }
+      ]
+    },
+    "磁暴": {
+      "储能护盾": [
+        {
+          "date": "2026-03-12",
+          "version": "1.10",
+          "update_type": "新单位科技",
+          "unit": "磁暴",
+          "tech": "储能护盾",
+          "content": "攻击时在内部储能。每攻击 13 次，在当前位置部署一个半径 40 米的能量护盾。护盾初始生命值为 4500，磁暴每提升 1 级，护盾生命值额外增加 4500。"
+        },
+        {
+          "date": "2026-03-19",
+          "version": "1.10.0.1",
+          "update_type": "平衡调整",
+          "unit": "磁暴",
+          "tech": "储能护盾",
+          "content": "每攻击 13 次生成一个护盾 → 每攻击 11 次生成一个护盾；护盾生命值 4500 → 5000"
+        },
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "磁暴",
+          "tech": "储能护盾",
+          "content": "效果调整为：攻击时在内部储能。每攻击 5 次，在当前位置部署一个半径 40 米的护盾，且增加下次部署护盾所需攻击次数 5。护盾基础生命值为 2000，磁暴每提升 1 级增加 2000。"
+        }
+      ],
+      "射程强化": [
+        {
+          "date": "2026-03-12",
+          "version": "1.10",
+          "update_type": "新单位科技",
+          "unit": "磁暴",
+          "tech": "射程强化",
+          "content": "射程增加40。"
+        }
+      ],
+      "并网": [
+        {
+          "date": "2026-03-12",
+          "version": "1.10",
+          "update_type": "新单位科技",
+          "unit": "磁暴",
+          "tech": "并网",
+          "content": "与 25 米内的其他磁暴产生链接。每多一个互相链接的单位，攻击力上升 15%。"
+        },
+        {
+          "date": "2026-03-19",
+          "version": "1.10.0.1",
+          "update_type": "平衡调整",
+          "unit": "磁暴",
+          "tech": "并网",
+          "content": "与 25 米内的其他磁暴产生链接。每多一个互相链接的单位，攻击力上升 15% → 与 25 米内的其他磁暴产生链接。每多一个互相链接的单位，攻击力上升 15%，最大上升 195%"
+        },
+        {
+          "date": "2026-04-01",
+          "version": "1.10.0.2",
+          "update_type": "平衡调整",
+          "unit": "磁暴",
+          "tech": "并网",
+          "content": "链接距离 25 → 35"
+        },
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "磁暴",
+          "tech": "并网",
+          "content": "每个链接单位增加的攻击力修正 +15% → +35%，最大攻击力修正 +195% → +105%"
+        }
+      ],
+      "应急装甲": [
+        {
+          "date": "2026-03-12",
+          "version": "1.10",
+          "update_type": "新单位科技",
+          "unit": "磁暴",
+          "tech": "应急装甲",
+          "content": "生命值首次低于 50% 时，启动应急装甲，抵抗所有伤害且无法被敌人锁定，持续 4 秒。生命值为 0 时无法启动应急装甲。"
+        },
+        {
+          "date": "2026-04-01",
+          "version": "1.10.0.2",
+          "update_type": "平衡调整",
+          "unit": "磁暴",
+          "tech": "应急装甲",
+          "content": "价格 200 → 100"
+        },
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "磁暴",
+          "tech": "应急装甲",
+          "content": "价格 100 → 150"
+        }
+      ],
+      "电磁云": [
+        {
+          "date": "2026-03-12",
+          "version": "1.10",
+          "update_type": "新单位科技",
+          "unit": "磁暴",
+          "tech": "电磁云",
+          "content": "攻击对目标和目标周围 10 米内的敌方单位形成电磁干扰。"
+        }
+      ],
+      "电磁双生": [
+        {
+          "date": "2026-03-12",
+          "version": "1.10",
+          "update_type": "新单位科技",
+          "unit": "磁暴",
+          "tech": "电磁双生",
+          "content": "战斗开始时，在身后生成一个 1 级磁暴幻影。幻影的生命值为 1，且攻击力为普通磁暴的 30%。"
+        },
+        {
+          "date": "2026-03-19",
+          "version": "1.10.0.1",
+          "update_type": "平衡调整",
+          "unit": "磁暴",
+          "tech": "电磁双生",
+          "content": "价格 300 → 400"
+        },
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "磁暴",
+          "tech": "电磁双生",
+          "content": "价格 400 → 350"
+        }
+      ],
+      "移动电站": [
+        {
+          "date": "2026-03-12",
+          "version": "1.10",
+          "update_type": "新单位科技",
+          "unit": "磁暴",
+          "tech": "移动电站",
+          "content": "射程增加 10，提升 100 米内地面友军单位 20% 的攻击力（效果不可叠加）。"
+        },
+        {
+          "date": "2026-03-19",
+          "version": "1.10.0.1",
+          "update_type": "平衡调整",
+          "unit": "磁暴",
+          "tech": "移动电站",
+          "content": "价格 300 → 250"
+        }
+      ],
+      "战地维修": [
+        {
+          "date": "2026-03-19",
+          "version": "1.10.0.1",
+          "update_type": "新科技",
+          "unit": "磁暴",
+          "tech": "战地维修",
+          "content": "新增科技：生命值上升 30%，受伤后每秒自动恢复最大生命值的 4.5%"
+        },
+        {
+          "date": "2026-04-01",
+          "version": "1.10.0.2",
+          "update_type": "平衡调整",
+          "unit": "磁暴",
+          "tech": "战地维修",
+          "content": "价格 200 → 100"
+        },
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "磁暴",
+          "tech": "战地维修",
+          "content": "价格 100 → 150"
+        }
+      ]
+    },
+    "魔眼": {
+      "蓄能攻击": [
+        {
+          "date": "2026-03-12",
+          "version": "1.10",
+          "update_type": "平衡调整",
+          "unit": "魔眼",
+          "tech": "蓄能攻击",
+          "content": "价格 150 → 100"
+        },
+        {
+          "date": "2026-04-09",
+          "version": "1.10.0.3",
+          "update_type": "平衡调整",
+          "unit": "魔眼",
+          "tech": "蓄能攻击",
+          "content": "攻击力修正 +175% → +120%"
+        }
+      ],
+      "电磁装甲": [
+        {
+          "date": "2026-05-14",
+          "version": "1.10.2",
+          "update_type": "平衡调整",
+          "unit": "魔眼",
+          "tech": "电磁装甲",
+          "content": "电磁效果持续时间 4s → 3.5s"
+        },
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "魔眼",
+          "tech": "电磁装甲",
+          "content": "持续时间 3.5s → 3s"
+        }
+      ]
+    },
+    "单位改型": {
+      "改进型剑齿虎": [
+        {
+          "date": "2026-04-01",
+          "version": "1.10.0.2",
+          "update_type": "单位改型",
+          "unit": "单位改型",
+          "tech": "改进型剑齿虎",
+          "content": "攻击间隔修正 -0.6s → -0.9s"
+        }
+      ],
+      "突击雷霆": [
+        {
+          "date": "2026-04-09",
+          "version": "1.10.0.3",
+          "update_type": "单位改型",
+          "unit": "单位改型",
+          "tech": "突击雷霆",
+          "content": "生命值修正 +200% → +80%，射程修正 -50 → -20"
+        }
+      ]
+    },
+    "沙虫": {
+      "机械分裂": [
+        {
+          "date": "2026-04-01",
+          "version": "1.10.0.2",
+          "update_type": "平衡调整",
+          "unit": "沙虫",
+          "tech": "机械分裂",
+          "content": "价格 150 → 200"
+        }
+      ],
+      "沙暴": [
+        {
+          "date": "2026-04-01",
+          "version": "1.10.0.2",
+          "update_type": "平衡调整",
+          "unit": "沙虫",
+          "tech": "沙暴",
+          "content": "持续时间 5s → 7s"
+        }
+      ],
+      "突袭": [
+        {
+          "date": "2026-04-01",
+          "version": "1.10.0.2",
+          "update_type": "平衡调整",
+          "unit": "沙虫",
+          "tech": "突袭",
+          "content": "价格 200 → 150"
+        }
+      ]
+    },
+    "雷霆": {
+      "能量护盾": [
+        {
+          "date": "2026-04-09",
+          "version": "1.10.0.3",
+          "update_type": "新科技",
+          "unit": "雷霆",
+          "tech": "能量护盾",
+          "content": "新增科技：获得一个能量护盾，护盾值等于自身生命值，并且可以至少抵挡一次伤害。"
+        },
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "雷霆",
+          "tech": "能量护盾",
+          "content": "价格 300 → 200"
+        }
+      ]
+    },
+    "战场技能": {
+      "光子投射": [
+        {
+          "date": "2026-05-14",
+          "version": "1.10.2",
+          "update_type": "平衡调整",
+          "unit": "战场技能",
+          "tech": "光子投射",
+          "content": "启动所需时间 1.8s → 0.6s"
+        }
+      ],
+      "巨型电磁冲击": [
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "战场技能",
+          "tech": "巨型电磁冲击",
+          "content": "对护盾伤害由 35000 → 20000"
+        }
+      ],
+      "烟雾弹": [
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "战场技能",
+          "tech": "烟雾弹",
+          "content": "持续时间 2 回合 → 1 回合"
+        }
+      ],
+      "电磁冲击": [
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "战场技能",
+          "tech": "电磁冲击",
+          "content": "对护盾伤害由 35000 → 20000"
+        }
+      ],
+      "酸液弹": [
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "战场技能",
+          "tech": "酸液弹",
+          "content": "持续时间 2 回合 → 1 回合，价格 200 → 100"
+        }
+      ]
+    },
+    "台风": {
+      "反应装甲": [
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "单位重制",
+          "unit": "台风",
+          "tech": "反应装甲",
+          "content": "受到攻击时可以抵挡 80%的伤害，最多 5 次。"
+        }
+      ],
+      "射程强化": [
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "单位重制",
+          "unit": "台风",
+          "tech": "射程强化",
+          "content": "射程增加 40"
+        }
+      ],
+      "战地重组": [
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "单位重制",
+          "unit": "台风",
+          "tech": "战地重组",
+          "content": "台风被击毁后会进入重组修复状态，在 5 秒后以 100% 生命值重新回到战场，每回合限 1 次。"
+        }
+      ],
+      "残骸引爆": [
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "单位重制",
+          "unit": "台风",
+          "tech": "残骸引爆",
+          "content": "被台风击毁的单位会发生剧烈爆炸，对其周围 15 米内的所有单位造成 125 点伤害。"
+        }
+      ],
+      "维修阵列": [
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "单位重制",
+          "unit": "台风",
+          "tech": "维修阵列",
+          "content": "每 3 秒一次，为台风自身及其周围 100 米内的友方单位恢复 500 点生命值。恢复量随台风等级提升，每级增加 500 点。"
+        }
+      ],
+      "野战工事": [
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "单位重制",
+          "unit": "台风",
+          "tech": "野战工事",
+          "content": "战斗开始时原地部署堑壕。驻扎期间无法移动，生命值上升 70%，射程上升 20。若射程内连续 7 秒没有敌人，台风将离开并摧毁堑壕。"
+        }
+      ],
+      "防空标记": [
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "单位重制",
+          "unit": "台风",
+          "tech": "防空标记",
+          "content": "每 10 秒发射一枚射程 160 米的标记弹，对目标周围 100 米范围内的敌方空军施加标记。被标记的单位射程减少 20，并在受到攻击时额外承受 30% 的伤害，持续 10 秒。"
+        }
+      ]
+    },
+    "长弓": {
+      "快速弹夹": [
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "长弓",
+          "tech": "快速弹夹",
+          "content": "价格 250 → 150，伤害修正 -50% → -60%"
+        }
+      ],
+      "突击模式": [
+        {
+          "date": "2026-06-09",
+          "version": "1.11",
+          "update_type": "平衡调整",
+          "unit": "长弓",
+          "tech": "突击模式",
+          "content": "攻击力修正 +50%→ +60%"
+        }
+      ]
+    }
+  }
+}
