@@ -1138,19 +1138,30 @@ function uniqueBestRowsForRanking(rows, labelKeyOrFn) {
   return Array.from(best.values());
 }
 
-function renderHorizontalBarChart(canvasId, oldChart, rows, metric, title, valueLabel) {
+function renderHorizontalBarChart(canvasId, oldChart, rows, metric, title, valueLabel, preserveOrder = false) {
   const ctx = document.getElementById(canvasId);
   if (!ctx) return oldChart;
   if (oldChart) oldChart.destroy();
-  const sorted = Array.from(rows || []).filter(r => {
-    if (metric === "wins") return Number.isFinite(Number(r.wins_value));
-    return normalizeRateNumber(r.win_rate_value) !== null;
-  }).sort((a, b) => {
-    if (metric === "wins") return Number(b.wins_value) - Number(a.wins_value);
-    return normalizeRateNumber(b.win_rate_value) - normalizeRateNumber(a.win_rate_value);
-  });
+
+  let sorted = Array.from(rows || []);
+  if (!preserveOrder) {
+    sorted = sorted.filter(r => {
+      if (metric === "wins") return Number.isFinite(Number(r.wins_value));
+      return normalizeRateNumber(r.win_rate_value) !== null;
+    }).sort((a, b) => {
+      if (metric === "wins") return Number(b.wins_value) - Number(a.wins_value);
+      return normalizeRateNumber(b.win_rate_value) - normalizeRateNumber(a.win_rate_value);
+    });
+  }
+
   const labels = sorted.map(r => r.__rankLabel || r.label || r.unit || r.combo_label || "");
-  const values = sorted.map(r => metric === "wins" ? Number(r.wins_value) : normalizeRateNumber(r.win_rate_value));
+  const values = sorted.map(r => {
+    if (metric === "wins") {
+      const v = Number(r.wins_value);
+      return Number.isFinite(v) ? v : null;
+    }
+    return normalizeRateNumber(r.win_rate_value);
+  });
 
   // 柱状图显示当前模块在该时间点的全部可用对象，不再截断 Top20。
   // 根据条目数量动态增加高度，避免全部显示时文字重叠。
@@ -1177,6 +1188,7 @@ function renderHorizontalBarChart(canvasId, oldChart, rows, metric, title, value
         legend: {display: false},
         tooltip: {callbacks: {label: function(context) {
           const value = context.raw;
+          if (value === null || value === undefined || !Number.isFinite(Number(value))) return `${valueLabel}: 无数据`;
           if (metric === "wins") return `${valueLabel}: ${Number(value).toFixed(2)} / 日`;
           return `${valueLabel}: ${Number(value).toFixed(2)}%`;
         }}}
@@ -1195,10 +1207,16 @@ function renderHorizontalBarChart(canvasId, oldChart, rows, metric, title, value
 
 function renderTwoColumnRankingBars(config) {
   const rows = uniqueBestRowsForRanking(config.rows || [], config.labelFn || config.labelKey || "unit");
+  const winsRows = Array.from(rows || [])
+    .filter(r => Number.isFinite(Number(r.wins_value)))
+    .sort((a, b) => Number(b.wins_value) - Number(a.wins_value));
+
   const winsTitle = (config.titlePrefix || "") + "｜胜场排名";
-  const rateTitle = (config.titlePrefix || "") + "｜" + (config.rateLabel || "胜率") + "排名";
-  const winsChart = renderHorizontalBarChart(config.winsCanvasId, config.winsChart, rows, "wins", winsTitle, "日均获胜次数");
-  const rateChart = renderHorizontalBarChart(config.rateCanvasId, config.rateChart, rows, "rate", rateTitle, config.rateLabel || "胜率");
+  const rateTitle = (config.titlePrefix || "") + "｜对应" + (config.rateLabel || "胜率");
+
+  // 左图决定顺序：右侧胜率/胜率差值不再单独排序，严格按左侧胜场排名一一对应。
+  const winsChart = renderHorizontalBarChart(config.winsCanvasId, config.winsChart, winsRows, "wins", winsTitle, "日均获胜次数", true);
+  const rateChart = renderHorizontalBarChart(config.rateCanvasId, config.rateChart, winsRows, "rate", rateTitle, config.rateLabel || "胜率", true);
   return {winsChart, rateChart};
 }
 
