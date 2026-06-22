@@ -231,15 +231,20 @@ body{margin:0;font-family:Arial,"Microsoft YaHei",sans-serif;background:#f6f7fb;
   align-items: stretch;
 }
 .category-rank-chart-box {
-  min-height: 420px;
+  min-height: 0;
+  height: auto;
   padding: 8px;
   border: 1px solid #eef1f6;
   border-radius: 12px;
   background: #fbfcff;
+  overflow-x: auto;
+  overflow-y: visible;
 }
 .category-rank-chart-box canvas {
+  display: block;
   width: 100% !important;
-  height: 400px !important;
+  min-height: 0 !important;
+  height: auto;
 }
 .category-rank-select {
   min-width: 180px;
@@ -1149,9 +1154,14 @@ function renderHorizontalBarChart(canvasId, oldChart, rows, metric, title, value
 
   // 柱状图显示当前模块在该时间点的全部可用对象，不再截断 Top20。
   // 根据条目数量动态增加高度，避免全部显示时文字重叠。
-  const dynamicHeight = Math.max(400, Math.min(12000, sorted.length * 24 + 90));
+  const rowHeight = 26;
+  const headerHeight = 100;
+  const dynamicHeight = Math.max(420, Math.min(20000, sorted.length * rowHeight + headerHeight));
   const box = ctx.parentElement;
-  if (box) box.style.minHeight = (dynamicHeight + 36) + "px";
+  if (box) {
+    box.style.height = (dynamicHeight + 34) + "px";
+    box.style.minHeight = (dynamicHeight + 34) + "px";
+  }
   ctx.style.setProperty("height", dynamicHeight + "px", "important");
   ctx.height = dynamicHeight;
 
