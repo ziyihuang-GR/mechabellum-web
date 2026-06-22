@@ -212,6 +212,46 @@ body{margin:0;font-family:Arial,"Microsoft YaHei",sans-serif;background:#f6f7fb;
 .power-coef-section h4{margin:0 0 8px;font-size:15px;color:#111827}
 @media (max-width: 1100px){.power-coef-grid{grid-template-columns:1fr}.power-time-axis-labels{display:block}.power-time-axis-labels span{display:block;margin-top:4px}}
 
+
+.category-rank-panel {
+  margin-top: 22px;
+  padding: 16px;
+  border: 1px solid #e6e8ef;
+  border-radius: 14px;
+  background: #fff;
+}
+.category-rank-title {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.category-rank-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  align-items: stretch;
+}
+.category-rank-chart-box {
+  min-height: 420px;
+  padding: 8px;
+  border: 1px solid #eef1f6;
+  border-radius: 12px;
+  background: #fbfcff;
+}
+.category-rank-chart-box canvas {
+  width: 100% !important;
+  height: 400px !important;
+}
+.category-rank-select {
+  min-width: 180px;
+  padding: 6px 10px;
+  border: 1px solid #dfe3eb;
+  border-radius: 8px;
+  background: #fff;
+}
+@media (max-width: 1100px) {
+  .category-rank-grid { grid-template-columns: 1fr; }
+}
+
   </style>
 </head>
 
@@ -522,6 +562,14 @@ body{margin:0;font-family:Arial,"Microsoft YaHei",sans-serif;background:#f6f7fb;
         <div class="chart-note">注：选择次数为单位在最后一回合占该经济比例时的出场记录；获胜次数为该单位对应获胜记录；胜率差值为该单位相对同分段单位平均胜率的差值。类别图中点线为选择次数，实线为获胜次数，虚线为胜率差值。</div>
         <div class="range-box"><b>时间范围：</b><div id="categoryOverallTimeSlider"></div><div id="categoryOverallRangeText"></div></div>
         <canvas id="categoryOverallChart"></canvas>
+      <div class="category-rank-panel">
+        <div class="category-rank-title">当期柱状图排名</div>
+        <div class="topbar"><b>排名时间：</b><select id="categoryOverallBarTimeSelect" class="category-rank-select"></select></div>
+        <div class="category-rank-grid">
+          <div class="category-rank-chart-box"><canvas id="categoryOverallWinsBarChart"></canvas></div>
+          <div class="category-rank-chart-box"><canvas id="categoryOverallRateBarChart"></canvas></div>
+        </div>
+      </div>
       </div>
       <div id="categoryOverallEmptyHint" class="hint">请先点击左侧“总体胜率”。</div>
     </main>
@@ -598,6 +646,14 @@ body{margin:0;font-family:Arial,"Microsoft YaHei",sans-serif;background:#f6f7fb;
       </div>
 
       <canvas id="categoryTechOverallChart"></canvas>
+      <div class="category-rank-panel">
+        <div class="category-rank-title">当期柱状图排名</div>
+        <div class="topbar"><b>排名时间：</b><select id="categoryTechBarTimeSelect" class="category-rank-select"></select></div>
+        <div class="category-rank-grid">
+          <div class="category-rank-chart-box"><canvas id="categoryTechWinsBarChart"></canvas></div>
+          <div class="category-rank-chart-box"><canvas id="categoryTechRateBarChart"></canvas></div>
+        </div>
+      </div>
     </main>
   </div>
 </section>
@@ -644,6 +700,14 @@ body{margin:0;font-family:Arial,"Microsoft YaHei",sans-serif;background:#f6f7fb;
       <div class="chart-note">注：选择1个或2个单位时，会展示所有包含这些单位的组合；最多可选择3个单位。选择“没有超过15%的单位”时，对应原始数据中前三个单位名称均为空的行。</div>
       <div class="range-box"><b>时间范围：</b><div id="comboCategoryTimeSlider"></div><div id="comboCategoryRangeText"></div></div>
       <canvas id="comboCategoryChart"></canvas>
+      <div class="category-rank-panel">
+        <div class="category-rank-title">当期柱状图排名</div>
+        <div class="topbar"><b>排名时间：</b><select id="comboCategoryBarTimeSelect" class="category-rank-select"></select></div>
+        <div class="category-rank-grid">
+          <div class="category-rank-chart-box"><canvas id="comboCategoryWinsBarChart"></canvas></div>
+          <div class="category-rank-chart-box"><canvas id="comboCategoryRateBarChart"></canvas></div>
+        </div>
+      </div>
     </main>
   </div>
 </section>
@@ -686,6 +750,14 @@ body{margin:0;font-family:Arial,"Microsoft YaHei",sans-serif;background:#f6f7fb;
       <div class="chart-note">注：选取次数为玩家选择该增援的记录；获胜次数为选择该增援后的获胜记录；胜率为该增援选择后的胜率。</div>
       <div class="range-box"><b>时间范围：</b><div id="categoryReinforceTimeSlider"></div><div id="categoryReinforceRangeText"></div></div>
       <canvas id="categoryReinforceChart"></canvas>
+      <div class="category-rank-panel">
+        <div class="category-rank-title">当期柱状图排名</div>
+        <div class="topbar"><b>排名时间：</b><select id="categoryReinforceBarTimeSelect" class="category-rank-select"></select></div>
+        <div class="category-rank-grid">
+          <div class="category-rank-chart-box"><canvas id="categoryReinforceWinsBarChart"></canvas></div>
+          <div class="category-rank-chart-box"><canvas id="categoryReinforceRateBarChart"></canvas></div>
+        </div>
+      </div>
     </main>
   </div>
 </section>
@@ -728,6 +800,14 @@ body{margin:0;font-family:Arial,"Microsoft YaHei",sans-serif;background:#f6f7fb;
       <div class="chart-note">注：选取次数为玩家选择该先遣队的记录；获胜次数为选择该先遣队后的获胜记录；胜率为该先遣队选择后的胜率。</div>
       <div class="range-box"><b>时间范围：</b><div id="categoryPioneerTimeSlider"></div><div id="categoryPioneerRangeText"></div></div>
       <canvas id="categoryPioneerChart"></canvas>
+      <div class="category-rank-panel">
+        <div class="category-rank-title">当期柱状图排名</div>
+        <div class="topbar"><b>排名时间：</b><select id="categoryPioneerBarTimeSelect" class="category-rank-select"></select></div>
+        <div class="category-rank-grid">
+          <div class="category-rank-chart-box"><canvas id="categoryPioneerWinsBarChart"></canvas></div>
+          <div class="category-rank-chart-box"><canvas id="categoryPioneerRateBarChart"></canvas></div>
+        </div>
+      </div>
     </main>
   </div>
 </section>
@@ -1004,6 +1084,103 @@ function formatRawValue(datasetLabel, rawValue) {
   }
 
   return `${Number(rawValue).toFixed(2)} / 日`;
+}
+
+
+function normalizeRateNumber(rawValue) {
+  const n = Number(rawValue);
+  if (!Number.isFinite(n)) return null;
+  return Math.abs(n) <= 1 ? n * 100 : n;
+}
+
+function ensureRankingTimeSelect(selectId, data, currentIndex, onChange) {
+  const select = document.getElementById(selectId);
+  if (!select || !data || !Array.isArray(data.times)) return currentIndex || 0;
+  const maxIndex = Math.max((data.times || []).length - 1, 0);
+  let idx = Number.isFinite(Number(currentIndex)) ? Number(currentIndex) : maxIndex;
+  idx = Math.min(Math.max(idx, 0), maxIndex);
+  const currentValue = String(idx);
+  const signature = JSON.stringify(data.timeFullLabels || data.timeLabels || data.times || []);
+  if (select.dataset.signature !== signature) {
+    select.innerHTML = "";
+    (data.timeFullLabels || data.timeLabels || data.times || []).forEach((label, i) => {
+      const opt = document.createElement("option");
+      opt.value = String(i);
+      opt.textContent = label || data.timeLabels?.[i] || data.times?.[i] || String(i);
+      select.appendChild(opt);
+    });
+    select.dataset.signature = signature;
+    select.onchange = () => onChange(Number(select.value));
+  }
+  select.value = currentValue;
+  return idx;
+}
+
+function uniqueBestRowsForRanking(rows, labelKeyOrFn) {
+  const best = new Map();
+  (rows || []).forEach(row => {
+    const label = typeof labelKeyOrFn === "function" ? labelKeyOrFn(row) : row[labelKeyOrFn];
+    const cleanLabel = String(label || "").trim();
+    if (!cleanLabel) return;
+    const wins = Number(row.wins_value);
+    const rate = normalizeRateNumber(row.win_rate_value);
+    if (!Number.isFinite(wins) && !Number.isFinite(rate)) return;
+    const old = best.get(cleanLabel);
+    if (!old || (Number.isFinite(wins) ? wins : -Infinity) > (Number.isFinite(Number(old.wins_value)) ? Number(old.wins_value) : -Infinity)) {
+      best.set(cleanLabel, {...row, __rankLabel: cleanLabel});
+    }
+  });
+  return Array.from(best.values());
+}
+
+function renderHorizontalBarChart(canvasId, oldChart, rows, metric, title, valueLabel) {
+  const ctx = document.getElementById(canvasId);
+  if (!ctx) return oldChart;
+  if (oldChart) oldChart.destroy();
+  const sorted = Array.from(rows || []).filter(r => {
+    if (metric === "wins") return Number.isFinite(Number(r.wins_value));
+    return normalizeRateNumber(r.win_rate_value) !== null;
+  }).sort((a, b) => {
+    if (metric === "wins") return Number(b.wins_value) - Number(a.wins_value);
+    return normalizeRateNumber(b.win_rate_value) - normalizeRateNumber(a.win_rate_value);
+  }).slice(0, 20);
+  const labels = sorted.map(r => r.__rankLabel || r.label || r.unit || r.combo_label || "");
+  const values = sorted.map(r => metric === "wins" ? Number(r.wins_value) : normalizeRateNumber(r.win_rate_value));
+  return new Chart(ctx, {
+    type: "bar",
+    data: {labels, datasets: [{label: valueLabel, data: values}]},
+    options: {
+      indexAxis: "y",
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        title: {display: true, text: title},
+        legend: {display: false},
+        tooltip: {callbacks: {label: function(context) {
+          const value = context.raw;
+          if (metric === "wins") return `${valueLabel}: ${Number(value).toFixed(2)} / 日`;
+          return `${valueLabel}: ${Number(value).toFixed(2)}%`;
+        }}}
+      },
+      scales: {
+        x: {
+          beginAtZero: metric === "wins",
+          ticks: {callback: value => metric === "wins" ? Number(value).toFixed(0) : Number(value).toFixed(0) + "%"},
+          title: {display: true, text: valueLabel}
+        },
+        y: {ticks: {autoSkip: false}}
+      }
+    }
+  });
+}
+
+function renderTwoColumnRankingBars(config) {
+  const rows = uniqueBestRowsForRanking(config.rows || [], config.labelFn || config.labelKey || "unit");
+  const winsTitle = (config.titlePrefix || "") + "｜胜场排名";
+  const rateTitle = (config.titlePrefix || "") + "｜" + (config.rateLabel || "胜率") + "排名";
+  const winsChart = renderHorizontalBarChart(config.winsCanvasId, config.winsChart, rows, "wins", winsTitle, "日均获胜次数");
+  const rateChart = renderHorizontalBarChart(config.rateCanvasId, config.rateChart, rows, "rate", rateTitle, config.rateLabel || "胜率");
+  return {winsChart, rateChart};
 }
 
 function setPage(pageId, title, hint, pushHistory = true) {
@@ -3063,6 +3240,39 @@ function selectCategoryUnitsByWins(n,descending){const data=categoryOverallData(
 function renderCategoryOverallChart(){if(currentPage!=="categoryOverallPage"||!categoryOverallOpened)return;const data=categoryOverallData();if(data.times.length===0)return;const enabled=getEnabledMetrics("category-overall-metric-check");const rawTimes=data.times.slice(categoryOverallStartIndex,categoryOverallEndIndex+1);const labels=data.timeLabels.slice(categoryOverallStartIndex,categoryOverallEndIndex+1);const selectedUnits=Array.from(selectedCategoryUnits);const datasets=[];selectedUnits.forEach((unit,idx)=>{const color=unitColors[idx%unitColors.length];const matched=data.rows.filter(r=>r.elo===categoryOverallSelectedMmr&&r.unit===unit&&r.share===categoryOverallSelectedShare);const byTime=new Map(matched.map(r=>[r.time,r]));if(enabled.has("select"))datasets.push({label:`${unit}｜日均选择次数`,unitName:unit,metric:"select",data:rawTimes.map(t=>byTime.get(t)?.select_value??null),yAxisID:"yCount",borderColor:colorToRgba(color,0.22),backgroundColor:colorToRgba(color,0.22),baseColor:colorToRgba(color,0.22),borderWidth:2,borderDash:[2,4],pointRadius:selectedUnits.length>6?0:2,tension:0.25,spanGaps:true});if(enabled.has("wins"))datasets.push({label:`${unit}｜日均获胜次数`,unitName:unit,metric:"wins",data:rawTimes.map(t=>byTime.get(t)?.wins_value??null),yAxisID:"yCount",borderColor:color,backgroundColor:color,baseColor:color,borderWidth:2.8,pointRadius:selectedUnits.length>6?0:2,tension:0.25,spanGaps:true});if(enabled.has("rate"))datasets.push({label:`${unit}｜胜率差值`,unitName:unit,metric:"rate",data:rawTimes.map(t=>byTime.get(t)?.win_rate_value??null),yAxisID:"yRate",borderColor:colorToRgba(color,0.48),backgroundColor:colorToRgba(color,0.48),baseColor:colorToRgba(color,0.48),borderWidth:2,borderDash:[7,5],pointRadius:selectedUnits.length>6?0:2,tension:0.25,spanGaps:true});});const showMarkers=document.getElementById("categoryOverallShowVersionMarkers")?.checked||false;const showSegmentFit=document.getElementById("categoryOverallShowSegmentFit")?.checked||false;const categoryOverallVersionMarkers=showMarkers?getVersionMarkersForUnits(rawTimes,selectedUnits):[];if(showSegmentFit){const markerCache=new Map();const getMarkersForCategoryOverallDataset=(ds)=>{if(!showMarkers||!ds.unitName)return[];const key=ds.unitName;if(!markerCache.has(key)){markerCache.set(key,getVersionMarkersForUnits(rawTimes,[key]));}return markerCache.get(key);};const fitDatasets=buildSegmentFitDatasets(labels,datasets,categoryOverallVersionMarkers,{getMarkersForDataset:getMarkersForCategoryOverallDataset});datasets.length=0;datasets.push(...fitDatasets);}const categoryOverallYCountAxis=buildDynamicLinearAxis(datasets,"yCount",{type:"linear",position:"left",title:{display:true,text:"日均次数"}},{floorZero:true,defaultPadding:1});const categoryOverallYRateAxis=buildDynamicLinearAxis(datasets,"yRate",{type:"linear",position:"right",grid:{drawOnChartArea:false},title:{display:true,text:"胜率差值"},ticks:{callback:value=>formatPercentValue(value)}},{defaultPadding:1});const ctx=document.getElementById("categoryOverallChart");if(categoryOverallChart)categoryOverallChart.destroy();categoryOverallChart=new Chart(ctx,{type:"line",data:{labels,datasets},options:{responsive:true,layout:{padding:{right:110}},interaction:{mode:"nearest",intersect:false},plugins:{versionMarkerPlugin:{enabled:showMarkers,markers:categoryOverallVersionMarkers},lineEndLabelPlugin:{enabled:true},title:{display:true,text:`${currentGameMode}｜${displayMmr(categoryOverallSelectedMmr)}｜单位经济所占百分比 ${categoryOverallSelectedShare}｜总体胜率`},legend:{display:selectedUnits.length<=10},tooltip:{callbacks:{label:function(context){const label=context.dataset.label;const value=context.raw;if(value===null||value===undefined)return`${label}: 无数据`;if(context.dataset.metric==="rate")return`${label}: ${formatPercentValue(value)}`;return`${label}: ${Number(value).toFixed(2)} / 日`;}}}},scales:{yCount:categoryOverallYCountAxis,yRate:categoryOverallYRateAxis}}});}
 
 
+let categoryOverallWinsBarChart = null;
+let categoryOverallRateBarChart = null;
+let categoryOverallBarTimeIndex = null;
+
+function renderCategoryOverallBarRanking(){
+  if(currentPage!=="categoryOverallPage"||!categoryOverallOpened)return;
+  const data=categoryOverallData();
+  if(!data.times||data.times.length===0)return;
+  categoryOverallBarTimeIndex=ensureRankingTimeSelect("categoryOverallBarTimeSelect",data,categoryOverallBarTimeIndex ?? categoryOverallEndIndex,idx=>{categoryOverallBarTimeIndex=idx;renderCategoryOverallBarRanking();});
+  const time=data.times[categoryOverallBarTimeIndex];
+  const rows=(data.rows||[]).filter(r=>r.time===time&&r.elo===categoryOverallSelectedMmr&&r.share===categoryOverallSelectedShare);
+  const charts=renderTwoColumnRankingBars({
+    rows,
+    labelKey:"unit",
+    winsCanvasId:"categoryOverallWinsBarChart",
+    rateCanvasId:"categoryOverallRateBarChart",
+    winsChart:categoryOverallWinsBarChart,
+    rateChart:categoryOverallRateBarChart,
+    titlePrefix:`${currentGameMode}｜${displayMmr(categoryOverallSelectedMmr)}｜经济占比 ${categoryOverallSelectedShare}`,
+    rateLabel:"胜率差值"
+  });
+  categoryOverallWinsBarChart=charts.winsChart;
+  categoryOverallRateBarChart=charts.rateChart;
+}
+
+const __origRenderCategoryOverallChart = renderCategoryOverallChart;
+renderCategoryOverallChart = function(){
+  __origRenderCategoryOverallChart();
+  renderCategoryOverallBarRanking();
+};
+
+
+
 let CATEGORY_TECH_ALL_DATA = null;
 
 let categoryTechSelectedUnits = new Set();
@@ -3838,6 +4048,49 @@ function renderCategoryTechOverallChart() {
 }
 
 
+let categoryTechWinsBarChart = null;
+let categoryTechRateBarChart = null;
+let categoryTechBarTimeIndex = null;
+
+function renderCategoryTechBarRanking(){
+  if(currentPage!=="categoryTechOverallPage")return;
+  const data=categoryTechData();
+  if(!data.times||data.times.length===0)return;
+  categoryTechBarTimeIndex=ensureRankingTimeSelect("categoryTechBarTimeSelect",data,categoryTechBarTimeIndex ?? categoryTechOverallEndIndex,idx=>{categoryTechBarTimeIndex=idx;renderCategoryTechBarRanking();});
+  const time=data.times[categoryTechBarTimeIndex];
+  const enabledSources=getCategoryTechEnabledSources();
+  const selectedKeys=new Set(Array.from(categoryTechSelectedTechIds));
+  const techNameByKey=new Map((data.techs||[]).map(t=>[makeCategoryTechKey(t.unit,String(t.tech_id)),t.tech_name]));
+  const rows=(data.rows||[]).filter(r=>{
+    const key=makeCategoryTechKey(r.unit,String(r.tech_id));
+    return r.time===time&&r.elo===categoryTechSelectedMmr&&enabledSources.has(r.source_type)&&selectedKeys.has(key);
+  }).map(r=>{
+    const key=makeCategoryTechKey(r.unit,String(r.tech_id));
+    const sourceLabel=r.source_type==="carry"?"科技携带":"科技解锁";
+    return {...r,__rankLabel:`${techNameByKey.get(key)||r.tech_name||r.tech_id}｜${r.unit}｜${sourceLabel}`};
+  });
+  const charts=renderTwoColumnRankingBars({
+    rows,
+    labelKey:"__rankLabel",
+    winsCanvasId:"categoryTechWinsBarChart",
+    rateCanvasId:"categoryTechRateBarChart",
+    winsChart:categoryTechWinsBarChart,
+    rateChart:categoryTechRateBarChart,
+    titlePrefix:`${currentGameMode}｜${displayMmr(categoryTechSelectedMmr)}｜单位科技`,
+    rateLabel:"胜率差值"
+  });
+  categoryTechWinsBarChart=charts.winsChart;
+  categoryTechRateBarChart=charts.rateChart;
+}
+
+const __origRenderCategoryTechOverallChart = renderCategoryTechOverallChart;
+renderCategoryTechOverallChart = function(){
+  __origRenderCategoryTechOverallChart();
+  renderCategoryTechBarRanking();
+};
+
+
+
 let COMBO_CATEGORY_ALL_DATA = null;
 let comboCategorySelectedMmr = null;
 let comboCategoryChart = null;
@@ -4152,6 +4405,55 @@ function renderComboCategoryChart() {
 }
 
 
+let comboCategoryWinsBarChart = null;
+let comboCategoryRateBarChart = null;
+let comboCategoryBarTimeIndex = null;
+
+function comboCategoryRowsForTimeIndex(timeIndex){
+  const data=comboCategoryData();
+  const selected=Array.from(selectedComboCategoryUnits);
+  const selectedEloIndex=(data.elos||[]).indexOf(comboCategorySelectedMmr);
+  let rows=[];
+  if(data.compact){
+    rows=(data.rows||[]).filter(r=>r[1]===selectedEloIndex&&r[0]===timeIndex).map(r=>comboCategoryMaterializeRow(data,r));
+  }else{
+    const time=data.times[timeIndex];
+    rows=(data.rows||[]).filter(r=>r.elo===comboCategorySelectedMmr&&r.time===time);
+  }
+  if(comboCategoryQuickMode==="noCore")return rows.filter(r=>r.combo_key==="__NO_CORE_UNIT__");
+  if(selected.length>0)rows=rows.filter(r=>selected.every(u=>(r.combo_units||[]).includes(u)));
+  if(comboCategorySizeFilter===1||comboCategorySizeFilter===2)rows=rows.filter(r=>Number(r.combo_size||0)===comboCategorySizeFilter);
+  return rows.filter(r=>r.combo_key!=="__NO_CORE_UNIT__");
+}
+
+function renderComboCategoryBarRanking(){
+  if(currentPage!=="comboCategoryDataPage")return;
+  const data=comboCategoryData();
+  if(!data.times||data.times.length===0)return;
+  comboCategoryBarTimeIndex=ensureRankingTimeSelect("comboCategoryBarTimeSelect",data,comboCategoryBarTimeIndex ?? comboCategoryEndIndex,idx=>{comboCategoryBarTimeIndex=idx;renderComboCategoryBarRanking();});
+  const rows=comboCategoryRowsForTimeIndex(comboCategoryBarTimeIndex).map(r=>({...r,__rankLabel:r.combo_label||(r.combo_key==="__NO_CORE_UNIT__"?"没有超过15%的单位":String(r.combo_key||"").replaceAll("|||"," + "))}));
+  const charts=renderTwoColumnRankingBars({
+    rows,
+    labelKey:"__rankLabel",
+    winsCanvasId:"comboCategoryWinsBarChart",
+    rateCanvasId:"comboCategoryRateBarChart",
+    winsChart:comboCategoryWinsBarChart,
+    rateChart:comboCategoryRateBarChart,
+    titlePrefix:`${currentGameMode}｜${displayMmr(comboCategorySelectedMmr)}｜组合`,
+    rateLabel:"胜率差值"
+  });
+  comboCategoryWinsBarChart=charts.winsChart;
+  comboCategoryRateBarChart=charts.rateChart;
+}
+
+const __origRenderComboCategoryChart = renderComboCategoryChart;
+renderComboCategoryChart = function(){
+  __origRenderComboCategoryChart();
+  renderComboCategoryBarRanking();
+};
+
+
+
 let CATEGORY_REINFORCE_ALL_DATA = null;
 let categoryReinforceSelectedMmr = null;
 let categoryReinforceChart = null;
@@ -4235,6 +4537,40 @@ function selectAllCategoryReinforceUnits(){selectedCategoryReinforceUnits=new Se
 function selectCategoryReinforceUnitsByWins(n,descending){const data=categoryReinforceData();const latestTime=data.times[categoryReinforceEndIndex];const rows=data.rows.filter(r=>r.time===latestTime&&r.elo===categoryReinforceSelectedMmr&&r.wins_value!==null&&r.wins_value!==undefined);rows.sort((a,b)=>descending?b.wins_value-a.wins_value:a.wins_value-b.wins_value);selectedCategoryReinforceUnits=new Set(rows.slice(0,n).map(r=>r.unit));renderCategoryReinforceUnitCheckboxes();renderCategoryReinforceChart();}
 
 function renderCategoryReinforceChart(){if(currentPage!=="categoryReinforceRankPage")return;const data=categoryReinforceData();if(data.times.length===0)return;const enabled=getEnabledMetrics("category-reinforce-metric-check");const rawTimes=data.times.slice(categoryReinforceStartIndex,categoryReinforceEndIndex+1);const labels=data.timeLabels.slice(categoryReinforceStartIndex,categoryReinforceEndIndex+1);const selectedUnits=Array.from(selectedCategoryReinforceUnits);const datasets=[];selectedUnits.forEach((unit,idx)=>{const color=categoryReinforceColors[idx%categoryReinforceColors.length];const matched=data.rows.filter(r=>r.elo===categoryReinforceSelectedMmr&&r.unit===unit);const byTime=new Map(matched.map(r=>[r.time,r]));if(enabled.has("select"))datasets.push({label:`${unit}｜日均选取次数`,unitName:unit,metric:"select",data:rawTimes.map(t=>byTime.get(t)?.select_value??null),yAxisID:"yCount",borderColor:categoryReinforceColorToRgba(color,0.32),backgroundColor:categoryReinforceColorToRgba(color,0.32),baseColor:categoryReinforceColorToRgba(color,0.32),borderWidth:2,borderDash:[2,4],pointRadius:selectedUnits.length>6?0:2,tension:0.25,spanGaps:true});if(enabled.has("wins"))datasets.push({label:`${unit}｜日均获胜次数`,unitName:unit,metric:"wins",data:rawTimes.map(t=>byTime.get(t)?.wins_value??null),yAxisID:"yCount",borderColor:color,backgroundColor:color,baseColor:color,borderWidth:2.8,pointRadius:selectedUnits.length>6?0:2,tension:0.25,spanGaps:true});if(enabled.has("rate"))datasets.push({label:`${unit}｜胜率`,unitName:unit,metric:"rate",data:rawTimes.map(t=>byTime.get(t)?.win_rate_value??null),yAxisID:"yRate",borderColor:categoryReinforceColorToRgba(color,0.55),backgroundColor:categoryReinforceColorToRgba(color,0.55),baseColor:categoryReinforceColorToRgba(color,0.55),borderWidth:2,borderDash:[7,5],pointRadius:selectedUnits.length>6?0:2,tension:0.25,spanGaps:true});});const showMarkers=document.getElementById("categoryReinforceShowVersionMarkers")?.checked||false;const showSegmentFit=document.getElementById("categoryReinforceShowSegmentFit")?.checked||false;const markers=showMarkers?getCategoryReinforceMarkers(rawTimes,selectedUnits):[];if(showSegmentFit){const markerCache=new Map();const getMarkersForCategoryReinforceDataset=(ds)=>{if(!showMarkers||!ds.unitName)return[];const key=ds.unitName;if(!markerCache.has(key)){markerCache.set(key,getCategoryReinforceMarkers(rawTimes,[key]));}return markerCache.get(key);};const fitDatasets=buildSegmentFitDatasets(labels,datasets,markers,{getMarkersForDataset:getMarkersForCategoryReinforceDataset});datasets.length=0;datasets.push(...fitDatasets);}const categoryReinforceYCountAxis=buildDynamicLinearAxis(datasets,"yCount",{type:"linear",position:"left",title:{display:true,text:"日均次数"}},{floorZero:true,defaultPadding:1});const categoryReinforceYRateAxis=buildDynamicLinearAxis(datasets,"yRate",{type:"linear",position:"right",grid:{drawOnChartArea:false},title:{display:true,text:"胜率"},ticks:{callback:value=>formatPercentValue(value)}},{hardMin:0,hardMax:100,defaultPadding:1});const ctx=document.getElementById("categoryReinforceChart");if(categoryReinforceChart)categoryReinforceChart.destroy();categoryReinforceChart=new Chart(ctx,{type:"line",data:{labels,datasets},options:{responsive:true,layout:{padding:{right:110}},interaction:{mode:"nearest",intersect:false},plugins:{versionMarkerPlugin:{enabled:showMarkers,markers},categoryReinforceLineEndLabelPlugin:{enabled:true},title:{display:true,text:`${currentGameMode}｜${displayMmr(categoryReinforceSelectedMmr)}｜${categoryReinforceTypeLabel(categoryReinforceSelectedType)}｜增援出场排名`},legend:{display:selectedUnits.length<=10},tooltip:{callbacks:{label:function(context){const label=context.dataset.label;const value=context.raw;if(value===null||value===undefined)return`${label}: 无数据`;if(context.dataset.metric==="rate")return`${label}: ${formatPercentValue(value)}`;return`${label}: ${Number(value).toFixed(2)} / 日`;}}}},scales:{yCount:categoryReinforceYCountAxis,yRate:categoryReinforceYRateAxis}}});}
+
+
+let categoryReinforceWinsBarChart = null;
+let categoryReinforceRateBarChart = null;
+let categoryReinforceBarTimeIndex = null;
+
+function renderCategoryReinforceBarRanking(){
+  if(currentPage!=="categoryReinforceRankPage")return;
+  const data=categoryReinforceData();
+  if(!data.times||data.times.length===0)return;
+  categoryReinforceBarTimeIndex=ensureRankingTimeSelect("categoryReinforceBarTimeSelect",data,categoryReinforceBarTimeIndex ?? categoryReinforceEndIndex,idx=>{categoryReinforceBarTimeIndex=idx;renderCategoryReinforceBarRanking();});
+  const time=data.times[categoryReinforceBarTimeIndex];
+  const selected=new Set(Array.from(selectedCategoryReinforceUnits));
+  const rows=(data.rows||[]).filter(r=>r.time===time&&r.elo===categoryReinforceSelectedMmr&&selected.has(r.unit));
+  const charts=renderTwoColumnRankingBars({
+    rows,
+    labelKey:"unit",
+    winsCanvasId:"categoryReinforceWinsBarChart",
+    rateCanvasId:"categoryReinforceRateBarChart",
+    winsChart:categoryReinforceWinsBarChart,
+    rateChart:categoryReinforceRateBarChart,
+    titlePrefix:`${currentGameMode}｜${displayMmr(categoryReinforceSelectedMmr)}｜${categoryReinforceTypeLabel(categoryReinforceSelectedType)}`,
+    rateLabel:"胜率"
+  });
+  categoryReinforceWinsBarChart=charts.winsChart;
+  categoryReinforceRateBarChart=charts.rateChart;
+}
+
+const __origRenderCategoryReinforceChart = renderCategoryReinforceChart;
+renderCategoryReinforceChart = function(){
+  __origRenderCategoryReinforceChart();
+  renderCategoryReinforceBarRanking();
+};
+
 
 
 let CATEGORY_PIONEER_ALL_DATA = null;
@@ -4341,6 +4677,40 @@ function selectAllCategoryPioneerUnits(){selectedCategoryPioneerUnits=new Set(ca
 function selectCategoryPioneerUnitsByWins(n,descending){const data=categoryPioneerData();const latestTime=data.times[categoryPioneerEndIndex];const rows=data.rows.filter(r=>r.time===latestTime&&r.elo===categoryPioneerSelectedMmr&&r.wins_value!==null&&r.wins_value!==undefined);rows.sort((a,b)=>descending?b.wins_value-a.wins_value:a.wins_value-b.wins_value);selectedCategoryPioneerUnits=new Set(rows.slice(0,n).map(r=>r.unit));renderCategoryPioneerUnitCheckboxes();renderCategoryPioneerChart();}
 
 function renderCategoryPioneerChart(){if(currentPage!=="categoryPioneerRankPage")return;const data=categoryPioneerData();if(data.times.length===0)return;const enabled=getEnabledMetrics("category-pioneer-metric-check");const rawTimes=data.times.slice(categoryPioneerStartIndex,categoryPioneerEndIndex+1);const labels=data.timeLabels.slice(categoryPioneerStartIndex,categoryPioneerEndIndex+1);const selectedUnits=Array.from(selectedCategoryPioneerUnits);const datasets=[];selectedUnits.forEach((unit,idx)=>{const color=categoryPioneerColors[idx%categoryPioneerColors.length];const matched=data.rows.filter(r=>r.elo===categoryPioneerSelectedMmr&&r.unit===unit);const byTime=new Map(matched.map(r=>[r.time,r]));if(enabled.has("select"))datasets.push({label:`${unit}｜选取次数/率`,unitName:unit,metric:"select",data:rawTimes.map(t=>byTime.get(t)?.select_value??null),yAxisID:"yCount",borderColor:categoryPioneerColorToRgba(color,0.32),backgroundColor:categoryPioneerColorToRgba(color,0.32),baseColor:categoryPioneerColorToRgba(color,0.32),borderWidth:2,borderDash:[2,4],pointRadius:selectedUnits.length>6?0:2,tension:0.25,spanGaps:true});if(enabled.has("wins"))datasets.push({label:`${unit}｜日均获胜次数`,unitName:unit,metric:"wins",data:rawTimes.map(t=>byTime.get(t)?.wins_value??null),yAxisID:"yCount",borderColor:color,backgroundColor:color,baseColor:color,borderWidth:2.8,pointRadius:selectedUnits.length>6?0:2,tension:0.25,spanGaps:true});if(enabled.has("rate"))datasets.push({label:`${unit}｜胜率`,unitName:unit,metric:"rate",data:rawTimes.map(t=>byTime.get(t)?.win_rate_value??null),yAxisID:"yRate",borderColor:categoryPioneerColorToRgba(color,0.55),backgroundColor:categoryPioneerColorToRgba(color,0.55),baseColor:categoryPioneerColorToRgba(color,0.55),borderWidth:2,borderDash:[7,5],pointRadius:selectedUnits.length>6?0:2,tension:0.25,spanGaps:true});});const showMarkers=document.getElementById("categoryPioneerShowVersionMarkers")?.checked||false;const showSegmentFit=document.getElementById("categoryPioneerShowSegmentFit")?.checked||false;const markers=showMarkers?getCategoryPioneerMarkers(rawTimes,selectedUnits):[];if(showSegmentFit){const markerCache=new Map();const getMarkersForCategoryPioneerDataset=(ds)=>{if(!showMarkers||!ds.unitName)return[];const key=ds.unitName;if(!markerCache.has(key)){markerCache.set(key,getCategoryPioneerMarkers(rawTimes,[key]));}return markerCache.get(key);};const fitDatasets=buildSegmentFitDatasets(labels,datasets,markers,{getMarkersForDataset:getMarkersForCategoryPioneerDataset});datasets.length=0;datasets.push(...fitDatasets);}const categoryPioneerYCountAxis=buildDynamicLinearAxis(datasets,"yCount",{type:"linear",position:"left",title:{display:true,text:"次数/率"}},{floorZero:true,defaultPadding:1});const categoryPioneerYRateAxis=buildDynamicLinearAxis(datasets,"yRate",{type:"linear",position:"right",grid:{drawOnChartArea:false},title:{display:true,text:"胜率"},ticks:{callback:value=>formatPercentValue(value)}},{hardMin:0,hardMax:100,defaultPadding:1});const ctx=document.getElementById("categoryPioneerChart");if(categoryPioneerChart)categoryPioneerChart.destroy();categoryPioneerChart=new Chart(ctx,{type:"line",data:{labels,datasets},options:{responsive:true,layout:{padding:{right:110}},interaction:{mode:"nearest",intersect:false},plugins:{versionMarkerPlugin:{enabled:showMarkers,markers},categoryPioneerLineEndLabelPlugin:{enabled:true},title:{display:true,text:`${currentGameMode}｜${displayMmr(categoryPioneerSelectedMmr)}｜${categoryPioneerTypeLabel(categoryPioneerSelectedType)}｜先遣队`},legend:{display:selectedUnits.length<=10},tooltip:{callbacks:{label:function(context){const label=context.dataset.label;const value=context.raw;if(value===null||value===undefined)return`${label}: 无数据`;if(context.dataset.metric==="rate")return`${label}: ${formatPercentValue(value)}`;return`${label}: ${Number(value).toFixed(2)}`;}}}},scales:{yCount:categoryPioneerYCountAxis,yRate:categoryPioneerYRateAxis}}});}
+
+
+let categoryPioneerWinsBarChart = null;
+let categoryPioneerRateBarChart = null;
+let categoryPioneerBarTimeIndex = null;
+
+function renderCategoryPioneerBarRanking(){
+  if(currentPage!=="categoryPioneerRankPage")return;
+  const data=categoryPioneerData();
+  if(!data.times||data.times.length===0)return;
+  categoryPioneerBarTimeIndex=ensureRankingTimeSelect("categoryPioneerBarTimeSelect",data,categoryPioneerBarTimeIndex ?? categoryPioneerEndIndex,idx=>{categoryPioneerBarTimeIndex=idx;renderCategoryPioneerBarRanking();});
+  const time=data.times[categoryPioneerBarTimeIndex];
+  const selected=new Set(Array.from(selectedCategoryPioneerUnits));
+  const rows=(data.rows||[]).filter(r=>r.time===time&&r.elo===categoryPioneerSelectedMmr&&selected.has(r.unit));
+  const charts=renderTwoColumnRankingBars({
+    rows,
+    labelKey:"unit",
+    winsCanvasId:"categoryPioneerWinsBarChart",
+    rateCanvasId:"categoryPioneerRateBarChart",
+    winsChart:categoryPioneerWinsBarChart,
+    rateChart:categoryPioneerRateBarChart,
+    titlePrefix:`${currentGameMode}｜${displayMmr(categoryPioneerSelectedMmr)}｜${categoryPioneerTypeLabel(categoryPioneerSelectedType)}`,
+    rateLabel:"胜率"
+  });
+  categoryPioneerWinsBarChart=charts.winsChart;
+  categoryPioneerRateBarChart=charts.rateChart;
+}
+
+const __origRenderCategoryPioneerChart = renderCategoryPioneerChart;
+renderCategoryPioneerChart = function(){
+  __origRenderCategoryPioneerChart();
+  renderCategoryPioneerBarRanking();
+};
+
 
 
 let UNIT_POWER_RANK_ALL_DATA = null;
