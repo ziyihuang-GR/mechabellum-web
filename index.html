@@ -1143,9 +1143,18 @@ function renderHorizontalBarChart(canvasId, oldChart, rows, metric, title, value
   }).sort((a, b) => {
     if (metric === "wins") return Number(b.wins_value) - Number(a.wins_value);
     return normalizeRateNumber(b.win_rate_value) - normalizeRateNumber(a.win_rate_value);
-  }).slice(0, 20);
+  });
   const labels = sorted.map(r => r.__rankLabel || r.label || r.unit || r.combo_label || "");
   const values = sorted.map(r => metric === "wins" ? Number(r.wins_value) : normalizeRateNumber(r.win_rate_value));
+
+  // 柱状图显示当前模块在该时间点的全部可用对象，不再截断 Top20。
+  // 根据条目数量动态增加高度，避免全部显示时文字重叠。
+  const dynamicHeight = Math.max(400, Math.min(12000, sorted.length * 24 + 90));
+  const box = ctx.parentElement;
+  if (box) box.style.minHeight = (dynamicHeight + 36) + "px";
+  ctx.style.setProperty("height", dynamicHeight + "px", "important");
+  ctx.height = dynamicHeight;
+
   return new Chart(ctx, {
     type: "bar",
     data: {labels, datasets: [{label: valueLabel, data: values}]},
@@ -4059,11 +4068,9 @@ function renderCategoryTechBarRanking(){
   categoryTechBarTimeIndex=ensureRankingTimeSelect("categoryTechBarTimeSelect",data,categoryTechBarTimeIndex ?? categoryTechOverallEndIndex,idx=>{categoryTechBarTimeIndex=idx;renderCategoryTechBarRanking();});
   const time=data.times[categoryTechBarTimeIndex];
   const enabledSources=getCategoryTechEnabledSources();
-  const selectedKeys=new Set(Array.from(categoryTechSelectedTechIds));
   const techNameByKey=new Map((data.techs||[]).map(t=>[makeCategoryTechKey(t.unit,String(t.tech_id)),t.tech_name]));
   const rows=(data.rows||[]).filter(r=>{
-    const key=makeCategoryTechKey(r.unit,String(r.tech_id));
-    return r.time===time&&r.elo===categoryTechSelectedMmr&&enabledSources.has(r.source_type)&&selectedKeys.has(key);
+    return r.time===time&&r.elo===categoryTechSelectedMmr&&enabledSources.has(r.source_type);
   }).map(r=>{
     const key=makeCategoryTechKey(r.unit,String(r.tech_id));
     const sourceLabel=r.source_type==="carry"?"科技携带":"科技解锁";
@@ -4411,7 +4418,6 @@ let comboCategoryBarTimeIndex = null;
 
 function comboCategoryRowsForTimeIndex(timeIndex){
   const data=comboCategoryData();
-  const selected=Array.from(selectedComboCategoryUnits);
   const selectedEloIndex=(data.elos||[]).indexOf(comboCategorySelectedMmr);
   let rows=[];
   if(data.compact){
@@ -4420,9 +4426,7 @@ function comboCategoryRowsForTimeIndex(timeIndex){
     const time=data.times[timeIndex];
     rows=(data.rows||[]).filter(r=>r.elo===comboCategorySelectedMmr&&r.time===time);
   }
-  if(comboCategoryQuickMode==="noCore")return rows.filter(r=>r.combo_key==="__NO_CORE_UNIT__");
-  if(selected.length>0)rows=rows.filter(r=>selected.every(u=>(r.combo_units||[]).includes(u)));
-  if(comboCategorySizeFilter===1||comboCategorySizeFilter===2)rows=rows.filter(r=>Number(r.combo_size||0)===comboCategorySizeFilter);
+  // 柱状图排名使用该时间点、当前 MMR 下全部可用组合；不受左侧单位筛选、快捷选择或组合规模筛选影响。
   return rows.filter(r=>r.combo_key!=="__NO_CORE_UNIT__");
 }
 
@@ -4549,8 +4553,7 @@ function renderCategoryReinforceBarRanking(){
   if(!data.times||data.times.length===0)return;
   categoryReinforceBarTimeIndex=ensureRankingTimeSelect("categoryReinforceBarTimeSelect",data,categoryReinforceBarTimeIndex ?? categoryReinforceEndIndex,idx=>{categoryReinforceBarTimeIndex=idx;renderCategoryReinforceBarRanking();});
   const time=data.times[categoryReinforceBarTimeIndex];
-  const selected=new Set(Array.from(selectedCategoryReinforceUnits));
-  const rows=(data.rows||[]).filter(r=>r.time===time&&r.elo===categoryReinforceSelectedMmr&&selected.has(r.unit));
+  const rows=(data.rows||[]).filter(r=>r.time===time&&r.elo===categoryReinforceSelectedMmr);
   const charts=renderTwoColumnRankingBars({
     rows,
     labelKey:"unit",
@@ -4689,8 +4692,7 @@ function renderCategoryPioneerBarRanking(){
   if(!data.times||data.times.length===0)return;
   categoryPioneerBarTimeIndex=ensureRankingTimeSelect("categoryPioneerBarTimeSelect",data,categoryPioneerBarTimeIndex ?? categoryPioneerEndIndex,idx=>{categoryPioneerBarTimeIndex=idx;renderCategoryPioneerBarRanking();});
   const time=data.times[categoryPioneerBarTimeIndex];
-  const selected=new Set(Array.from(selectedCategoryPioneerUnits));
-  const rows=(data.rows||[]).filter(r=>r.time===time&&r.elo===categoryPioneerSelectedMmr&&selected.has(r.unit));
+  const rows=(data.rows||[]).filter(r=>r.time===time&&r.elo===categoryPioneerSelectedMmr);
   const charts=renderTwoColumnRankingBars({
     rows,
     labelKey:"unit",
