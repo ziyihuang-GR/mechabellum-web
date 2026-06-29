@@ -698,7 +698,7 @@ body{margin:0;font-family:Arial,"Microsoft YaHei",sans-serif;background:#f6f7fb;
         <b>显示指标：</b>
         <label><input type="checkbox" class="combo-category-metric-check" value="select" onchange="renderComboCategoryChart()"> 选择次数</label>
         <label><input type="checkbox" class="combo-category-metric-check" value="wins" checked onchange="renderComboCategoryChart()"> 获胜次数</label>
-        <label><input type="checkbox" class="combo-category-metric-check" value="rate" onchange="renderComboCategoryChart()"> 胜率差值</label>
+        <label><input type="checkbox" class="combo-category-metric-check" value="rate" onchange="renderComboCategoryChart()"> 胜率</label>
         <label><input id="comboCategoryShowVersionMarkers" type="checkbox" onchange="renderComboCategoryChart()"> 显示版本时间线</label>
         <label><input id="comboCategoryShowSegmentFit" type="checkbox" onchange="renderComboCategoryChart()"> 显示分段拟合线</label>
       </div>
@@ -4385,7 +4385,7 @@ function renderComboCategoryChart() {
     const byTime = new Map(comboRows.map(r => [r.time, r]));
     if (enabled.has("select")) datasets.push({label: `${label}｜日均选择次数排名`, unitName: label, updateUnits: updateUnits, metric: "select", data: rawTimes.map(t => byTime.get(t)?.select ?? null), rawData: rawTimes.map(t => byTime.get(t)?.select_value ?? null), yAxisID: "yRank", borderColor: colorToRgba(color, 0.22), backgroundColor: colorToRgba(color, 0.22), baseColor: colorToRgba(color, 0.22), borderWidth: 2, borderDash: [2,4], pointRadius: selectedKeys.length > 6 ? 0 : 2, tension: 0.25, spanGaps: true});
     if (enabled.has("wins")) datasets.push({label: `${label}｜日均获胜次数排名`, unitName: label, updateUnits: updateUnits, metric: "wins", data: rawTimes.map(t => byTime.get(t)?.wins ?? null), rawData: rawTimes.map(t => byTime.get(t)?.wins_value ?? null), yAxisID: "yRank", borderColor: color, backgroundColor: color, baseColor: color, borderWidth: 2.8, pointRadius: selectedKeys.length > 6 ? 0 : 2, tension: 0.25, spanGaps: true});
-    if (enabled.has("rate")) datasets.push({label: `${label}｜胜率差值排名`, unitName: label, updateUnits: updateUnits, metric: "rate", data: rawTimes.map(t => byTime.get(t)?.win_rate ?? null), rawData: rawTimes.map(t => byTime.get(t)?.win_rate_value ?? null), yAxisID: "yRank", borderColor: colorToRgba(color, 0.48), backgroundColor: colorToRgba(color, 0.48), baseColor: colorToRgba(color, 0.48), borderWidth: 2, borderDash: [7,5], pointRadius: selectedKeys.length > 6 ? 0 : 2, tension: 0.25, spanGaps: true});
+    if (enabled.has("rate")) datasets.push({label: `${label}｜胜率排名`, unitName: label, updateUnits: updateUnits, metric: "rate", data: rawTimes.map(t => byTime.get(t)?.win_rate ?? null), rawData: rawTimes.map(t => byTime.get(t)?.win_rate_value ?? null), yAxisID: "yRank", borderColor: colorToRgba(color, 0.48), backgroundColor: colorToRgba(color, 0.48), baseColor: colorToRgba(color, 0.48), borderWidth: 2, borderDash: [7,5], pointRadius: selectedKeys.length > 6 ? 0 : 2, tension: 0.25, spanGaps: true});
   });
 
   const showMarkers = document.getElementById("comboCategoryShowVersionMarkers")?.checked || false;
@@ -4472,7 +4472,7 @@ function renderComboCategoryBarRanking(){
     winsChart:comboCategoryWinsBarChart,
     rateChart:comboCategoryRateBarChart,
     titlePrefix:`${currentGameMode}｜${displayMmr(comboCategorySelectedMmr)}｜组合`,
-    rateLabel:"胜率差值"
+    rateLabel:"胜率"
   });
   comboCategoryWinsBarChart=charts.winsChart;
   comboCategoryRateBarChart=charts.rateChart;
